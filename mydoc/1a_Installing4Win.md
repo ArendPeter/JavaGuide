@@ -1,5 +1,5 @@
 ---
-title: Installing Java on Windows
+title: Installing Java
 tags:
 audience: programmers
 type:
@@ -16,7 +16,7 @@ If this is outdated the download can be found by searching for “Java JDK” an
 Once it’s downloaded click next through the download process and be sure to make note of the directory in which it’s installed. Screen shots of the entire installation process can be found in Appendix A
 
 ## 1.1.2 Adding Java to Path
-Open up command prompt. This can be done by typing “cmd” in your search bar. Now we’re going to test if the Java compiler is linked to your path. To do this input “javac”.
+Open up command prompt. This can be done by typing “cmd” in your search bar. Now we’re going to test if the Java compiler is linked to your path. To do this input `javac`.
 
 ![](img/1a_javac_pre.png)
 
@@ -31,7 +31,7 @@ Next go to your search menu and look for “System”, and open it.
 
 Next click on Advaced system settings
 
-*Warning: Be sure to follow the next steps exactly as incorrectly modifying your path could affect other areas on your computer*
+**Warning: Be sure to follow the next steps exactly as incorrectly modifying your path could affect other areas on your computer**
 
 ![](img/1a_window3.png)
 
@@ -45,9 +45,11 @@ Now look under the “System variables” section, select “Path”, then click
 
 Add a semi-colon to the previous path, then paste the Java installation directory, which was copied earlier. Also make sure there is no whitespace at the end of your path.
 Hit ok on all the open windows to back out of this area and to apply your changes.
-Next close your original command prompt window and open a new one. Now when you type “javac” it should give you a list of options indicating how this command is intended to be used as can be seen in figure 1.1.
+Next close your original command prompt window and open a new one. Now when you type `javac` it should give you a list of options indicating how this command is intended to be used as can be seen in figure 1.1.
 
 ![](img/1a_javac_post.png)
+
+**Figure 1.1** Output by `javac` once Java is installed
 
 ## 1.1.3 Command Prompt Basics
 
@@ -63,4 +65,13 @@ For this guide there are about 9 commands you’ll need for basic command prompt
 | help <command>   | Lists the usage for a specific command |
 | java				     | Run a java program |
 | javac				     | Compile a java program |
-| color				     | Change the color of your screen | 
+| color				     | Change the color of your screen |
+
+**Figure 1.2** List of basic command prompt commands
+
+The last one isn’t really essential but it’s just fun to use. For example inputting `color 70` will invert the colors on your command prompt window.
+As an example of navigating through directories in Figure 1.3 I’ve used `dir` to see what’s in my directory. I saw “Desktop” in that list so I used `cd Desktop` to navigate to my desktop. Then I used `cd ..` to go back to my user directory.
+
+![](img/1a_dos_ex.png)
+
+**Figure 1.1** Example of navigating within command prompt
