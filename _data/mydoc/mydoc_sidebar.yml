@@ -37,28 +37,28 @@ entries:
     output: web, pdf
     items:
     - title: Windows
-      url: /mydoc/1a_Installing4Win.md
+      url: /mydoc/1a_Installing4Win.html
       audience: writers, programmers
       platform: all
       product: all
       version: all
       output: web, pdf
     - title: Windows Exersizes
-      url: /mydoc/1b_Installing4Win_ex.md
+      url: /mydoc/1b_Installing4Win_ex.html
       audience: writers, programmers
       platform: all
       product: all
       version: all
       output: web, pdf
     - title: Mac/OSX
-      url: /mydoc/1c_Installing4Mac.md
+      url: /mydoc/1c_Installing4Mac.html
       audience: writers, programmers
       platform: all
       product: all
       version: all
       output: web, pdf
     - title: Mac/OSX Exersizes
-      url: /mydoc/1d_Installing4Mac_ex.md
+      url: /mydoc/1d_Installing4Mac_ex.html
       audience: writers, programmers
       platform: all
       product: all
@@ -72,21 +72,21 @@ entries:
     output: web, pdf
     items:
     - title: Code Compile Run
-      url: /mydoc/2a_CodeCompileRun.md
+      url: /mydoc/2a_CodeCompileRun.html
       audience: writers, programmers
       platform: all
       product: all
       version: all
       output: web, pdf
     - title: Understanding Hello World
-      url: /mydoc/2b_UnderstandHelloWorld.md
+      url: /mydoc/2b_UnderstandHelloWorld.html
       audience: writers, programmers
       platform: all
       product: all
       version: all
       output: web, pdf
     - title: Exersizes
-      url: /mydoc/2c_Exersizes.md
+      url: /mydoc/2c_Exersizes.html
       audience: writers, programmers
       platform: all
       product: all
