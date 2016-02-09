@@ -6,7 +6,7 @@ type: first_page
 homepage: true
 ---
 
-## Overview
+## Overview 
 
 This site provides documentation, training, and other notes for the Jekyll Documentation theme. There's a lot of information about how to do a variety of things here, and it's not all unique to this theme. But by and large, understanding how to do things in Jekyll depends on how your theme is coded. As a result, these additional details are provided.
 
@@ -46,4 +46,4 @@ If you would like to download this help file as a PDF, you can do so here. The P
 
 <a target="_blank" class="noCrossRef" href="files/{{site.pdf_file_name}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
 
-The PDF contains a timestamp in the header indicating when it was last generated.
+The PDF contains a timestamp in the header indicating when it was last generated. 

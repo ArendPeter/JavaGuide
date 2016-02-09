@@ -36,6 +36,7 @@ exclude:
   - _drafts
   - configs/
   - doc/mydoc_writers*
+  - ex_doc
 
 # same for all
 host: 127.0.0.1
