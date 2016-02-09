@@ -21,7 +21,7 @@ Included in the topnav.html file is an include to /doc/custom_menu.html. The cod
     <ul class="dropdown-menu">
         <li {% if site.audience == "writers" %}class="dropdownActive"{% endif %}><a href="{% if page.homepage == true or page.switch == false %}../mydoc_writers/">Writer docs</a> {% else %} ../mydoc_writers{{page.url}}">Writer docs</a>{% endif %}</li>
 
-<li {% if site.audience == "designers" %}class="dropdownActive"{% endif %}><a href="{% if page.homepage == true or page.switch == false %}../mydoc_designers/">Designer docs</a> {% else %} ../mydoc_designers{{page.url}}">Designer docs</a>{% endif %}</li>
+<li {% if site.audience == "programmers" %}class="dropdownActive"{% endif %}><a href="{% if page.homepage == true or page.switch == false %}../mydoc_programmers/">Designer docs</a> {% else %} ../mydoc_programmers{{page.url}}">Designer docs</a>{% endif %}</li>
 
 </ul>
 </li>
@@ -34,7 +34,7 @@ Github Pages, where I'm publishing this theme, allows only one output per Github
 
 The current doc site is highlighted. If you select another doc site, the site switches to that doc site and goes to the same page on that doc site. This way, if you have a task such as "Configuring the license" in several different programming languages, users can switch to other programming languages to see the same page.
 
-You need to have both the designers and writers sites deployed on a web server to see this in action. Once deployed, browse to any page in the navigation. Then go to the **Custom Menu** and select the **Writers** site. You'll go to the exact same page but on the Writers site.
+You need to have both the programmers and writers sites deployed on a web server to see this in action. Once deployed, browse to any page in the navigation. Then go to the **Custom Menu** and select the **Writers** site. You'll go to the exact same page but on the Writers site.
 
 If your current page doesn't have an equivalent in your other outputs, then put this in the frontmatter of the page:
 

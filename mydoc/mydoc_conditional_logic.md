@@ -46,7 +46,7 @@ On a page in my site (it can be HTML or markdown), I can conditionalize content 
 ```liquid
 {% if site.audience == "writers" %}
 The writer audience should see this...
-{% elsif site.audience == "designers" %}
+{% elsif site.audience == "programmers" %}
 The designer audience should see this ...
 {% endif %}
 ```

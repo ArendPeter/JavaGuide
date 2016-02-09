@@ -7,10 +7,10 @@ jekyll build --config configs/config_writers.yml
 # jekyll serve --config configs/config_writers.yml
 echo "done"
 
-# Designers
-echo "Building Designers ..."
-jekyll build --config configs/config_designers.yml
-# jekyll serve --config configs/config_designers.yml
+# programmers
+echo "Building programmers ..."
+jekyll build --config configs/config_programmers.yml
+# jekyll serve --config configs/config_programmers.yml
 echo "done"
 
 echo "All finished building all the web outputs!!!"

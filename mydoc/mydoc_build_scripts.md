@@ -54,8 +54,8 @@ echo "Building PDF-friendly HTML site for Mydoc Writers ..."
 jekyll serve --detach --config configs/mydoc/config_writers.yml,configs/mydoc/config_writers_pdf.yml
 echo "done"
 
-echo "Building PDF-friendly HTML site for Mydoc Designers ..."
-jekyll serve --detach --config configs/mydoc/config_designers.yml,configs/mydoc/config_designers_pdf.yml
+echo "Building PDF-friendly HTML site for Mydoc programmers ..."
+jekyll serve --detach --config configs/mydoc/config_programmers.yml,configs/mydoc/config_programmers_pdf.yml
 echo "done"
 
 echo "All done serving up the PDF-friendly sites. Now let's generate the PDF files from these sites."
@@ -80,9 +80,9 @@ echo "Building the Mydoc Writers PDF ..."
 prince --javascript --input-list=../doc_outputs/mydoc/writers-pdf/prince-file-list.txt -o mydoc/files/mydoc_writers_pdf.pdf;
 echo "done"
 
-# Doc Designers
-echo "Building Mydoc Designers PDF ..."
-prince --javascript --input-list=../doc_outputs/mydoc/designers-pdf/prince-file-list.txt -o mydoc/files/mydoc_designers_pdf.pdf;
+# Doc programmers
+echo "Building Mydoc programmers PDF ..."
+prince --javascript --input-list=../doc_outputs/mydoc/programmers-pdf/prince-file-list.txt -o mydoc/files/mydoc_programmers_pdf.pdf;
 echo "done"
 
 echo "All done building the PDFs!"
@@ -112,9 +112,9 @@ jekyll build --config configs/doc/config_writers.yml
 # jekyll serve --config configs/doc/config_writers.yml
 echo "done"
 
-echo "Building Mydoc Designers website..."
-jekyll build --config configs/doc/config_designers.yml
-# jekyll serve --config configs/doc/config_designers.yml
+echo "Building Mydoc programmers website..."
+jekyll build --config configs/doc/config_programmers.yml
+# jekyll serve --config configs/doc/config_programmers.yml
 echo "done"
 
 echo "All finished building all the web outputs!!!"
@@ -157,7 +157,7 @@ This script isn't included in the theme, but you might optionally decide to push
 Here's what this script looks like:
 
 ```
-cd doc_outputs/mydoc/designers
+cd doc_outputs/mydoc/programmers
 git add --all
 git commit -m "publishing latest version of docs"
 git push
@@ -168,7 +168,7 @@ cd ../../docs
 
 This final script simply makes a commit into a Github repo for one of your outputs.
 
-The doc_outputs/mydoc/designers contains the site output from mydoc, so when you push content from this folder into Github, you're actually pushing the HTML site output into Github, not the mydoc source files.
+The doc_outputs/mydoc/programmers contains the site output from mydoc, so when you push content from this folder into Github, you're actually pushing the HTML site output into Github, not the mydoc source files.
 
 Your delivery team can also grab the site output from these repos. After downloading it, the person unzips the folder and sees the website folders inside.
 

@@ -35,7 +35,7 @@ Before you start customizing the theme, make sure you can build the theme with t
  
     {{site.data.alerts.tip}} The main goal of this theme is to enable single sourcing. With single sourcing, you build multiple outputs from the same source, with somewhat different content in each output based on the particular product, platform, version, and audience. You don't have to use this theme for single sourcing, but most tech writing projects require this. If you're not a technical writer or not creating documentation, this theme is probably not for you. It doesn't have any post features coded, just pages.{{site.data.alerts.end}}
     
-    There are four configuration files in this project: config_writers.yml and config_designers.yml as well as their PDF equivalents. The idea is that there's an output specific to writers, and an output specific to designers. 
+    There are four configuration files in this project: config_writers.yml and config_programmers.yml as well as their PDF equivalents. The idea is that there's an output specific to writers, and an output specific to programmers. 
     
     In reality, both of these outputs are pretty much the same. I mainly incorporated two outputs here mainly to demonstrate how the single sourcing works.
 
@@ -59,13 +59,13 @@ Before you start customizing the theme, make sure you can build the theme with t
     Open a new tab in your browser and preview the site at the preview URL shown.
 	
 7. Press **Ctrl+C** in Terminal to shut down the writer's preview server. 
-8. Build the designers output:
+8. Build the programmers output:
 	
     ```
-    jekyll serve --config configs/mydoc/config_designers.yml
+    jekyll serve --config configs/mydoc/config_programmers.yml
     ```
     
-    Open a new tab in your browser and preview the site at the preview URL shown. Notice how the themes differ (designers is blue, writers is green).
+    Open a new tab in your browser and preview the site at the preview URL shown. Notice how the themes differ (programmers is blue, writers is green).
 
 9. Press **Ctrl+C** in Terminal to shut down the designer's preview server. 
 10. Build both themes by running the following command:
@@ -74,9 +74,9 @@ Before you start customizing the theme, make sure you can build the theme with t
 	. mydoc_3_multibuild_web.sh
 	```
 	
-	The themes build in the `../doc_outputs/mydoc/mydoc_designers` and `../doc_outputs/mydoc/mydoc_writers` folders. Browse to these directories to view the output. 
+	The themes build in the `../doc_outputs/mydoc/mydoc_programmers` and `../doc_outputs/mydoc/mydoc_writers` folders. Browse to these directories to view the output. 
 	
-	Open the writers and designers folders and click the index.html file. The themes should launch and appear similar to their appearance in the preview folder. This is because the themes are built using a relative link structure, so you can move the theme to any folder you want without breaking the links. 
+	Open the writers and programmers folders and click the index.html file. The themes should launch and appear similar to their appearance in the preview folder. This is because the themes are built using a relative link structure, so you can move the theme to any folder you want without breaking the links. 
 	
     If the theme builds both outputs successfully, great. You can move on to the other sections. If you run into errors building the themes, solve them before moving on. See {{site.data.mydoc.mydoc_urls.mydoc_troubleshooting.link}} for more information.
     

@@ -79,7 +79,7 @@ This is why the `url` value in the sidebar data file looks something like this:
 ```yaml
     - title: Understanding how the sidebar works
       url: /mydoc/mydoc_understand_sidebar.html
-      audience: writers, designers
+      audience: writers, programmers
       platform: all
       product: all
       version: all

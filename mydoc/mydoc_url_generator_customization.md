@@ -25,7 +25,7 @@ To learn more about the linking strategy used with this theme, see {{site.data.m
 	
 	{% raw %}
 	```
-	{% if site.project == "mydoc_writers" or site.project == "mydoc_designers" %}
+	{% if site.project == "mydoc_writers" or site.project == "mydoc_programmers" %}
 	```
 	{% endraw %}
 	

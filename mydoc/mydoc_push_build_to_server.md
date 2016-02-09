@@ -14,7 +14,7 @@ If you have the AWS Command Line Interface installed and are pushing your builds
 ```
 #aws s3 cp ~/users/tjohnson/projects/documentation-theme-jekyll-builds/mydoc_writers s3://[aws path]documentation-theme-jekyll/mydoc_writers --recursive
 
-#aws s3 cp ~/users/tjohnson/projects/documentation-theme-jekyll-builds/mydoc_designers s3://[aws path]/documentation-theme-jekyll/mydoc_designers --recursive
+#aws s3 cp ~/users/tjohnson/projects/documentation-theme-jekyll-builds/mydoc_programmers s3://[aws path]/documentation-theme-jekyll/mydoc_programmers --recursive
 ```
 
 The first path is the local location; the second path is the destination.

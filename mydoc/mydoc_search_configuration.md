@@ -40,7 +40,7 @@ Note that the last replace, `| replace: '^t', '    ' `, looks for any tab charac
 
 It's possible that the formatting may not account for all the scenarios that would invalidate the JSON. (Sometimes it's an extra comma after the last item that makes it invalid.)
 
-{% if site.audience == "designers" %}
+{% if site.audience == "programmers" %}
 ## Customizing search results
 
 At some point, you may want to customize the search results more. Here's a little more detail that will be helpful. The search.json file retrieves various page values:

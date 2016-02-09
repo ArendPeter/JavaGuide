@@ -16,11 +16,11 @@ When you're working with tech docs, a lot of times you're single sourcing multip
 1. Open iTerm and go to **Profiles > Open Profiles.**
 2. Click **Edit Profiles**.
 3. Click the + button in the lower-left corner to create a new profile.
-4. In the **Name** field, type a name describing the output, such as `Doc theme -- designers`.
+4. In the **Name** field, type a name describing the output, such as `Doc theme -- programmers`.
 5. In the **Send text at start** field, type the command for the build script, such as this:
 
     ```
-    jekyll serve --config configs/config_designers.yml
+    jekyll serve --config configs/config_programmers.yml
     ```
     Leave the Login shell option selected.
 	

@@ -108,7 +108,7 @@ The first section in the sidebar subcategory list is a special frontmatter secti
 
 ```yaml
   - title:
-    audience: writers, designers
+    audience: writers, programmers
     platform: all
     product: all
     version: all
@@ -117,7 +117,7 @@ The first section in the sidebar subcategory list is a special frontmatter secti
     items:
     - title:
       url: /titlepage.html
-      audience: writers, designers
+      audience: writers, programmers
       platform: all
       product: all
       version: all
@@ -125,7 +125,7 @@ The first section in the sidebar subcategory list is a special frontmatter secti
       type: frontmatter
     - title:
       url: /tocpage.html
-      audience: writers, designers
+      audience: writers, programmers
       platform: all
       product: all
       version: all

@@ -12,9 +12,9 @@ weight: 2
 
 ## About customizing the theme 
 
-The theme shows two build outputs: one for designers, and one for writers. The dual outputs is an example of the single sourcing nature of the theme. The designers output is comprehensive, whereas the writers output is a subset of the information. However, the outputs are mostly the same. I just created the separate output to demonstrate how the single sourcing aspect works. 
+The theme shows two build outputs: one for programmers, and one for writers. The dual outputs is an example of the single sourcing nature of the theme. The programmers output is comprehensive, whereas the writers output is a subset of the information. However, the outputs are mostly the same. I just created the separate output to demonstrate how the single sourcing aspect works. 
 
-You can add as many documentation projects as you want to the same Jekyll project. Some doc projects have multiple outputs, as is the case with the designers and writers outputs for the mydoc project. 
+You can add as many documentation projects as you want to the same Jekyll project. Some doc projects have multiple outputs, as is the case with the programmers and writers outputs for the mydoc project. 
 
 ## Add a new project
 Follow these steps to add additional projects.

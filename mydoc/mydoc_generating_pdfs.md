@@ -30,15 +30,15 @@ You can install a fully functional trial version. The only difference is that th
 
 ## 2. Create a new configuration file for each of your PDF targets
 
-The PDF configuration file will build on the settings in the regular configuration file but will some additional fields. Here's the configuration file for the config_designers.yml file for this theme:
+The PDF configuration file will build on the settings in the regular configuration file but will some additional fields. Here's the configuration file for the config_programmers.yml file for this theme:
 
 ```
-destination: ../doc_outputs/mydoc/designers-pdf
+destination: ../doc_outputs/mydoc/programmers-pdf
 url: "http://127.0.0.1:4010"
-baseurl: "/mydoc/designers-pdf"
+baseurl: "/mydoc/programmers-pdf"
 port: 4010
 output: pdf
-print_title: Jekyll theme for documentation — designers
+print_title: Jekyll theme for documentation — programmers
 print_subtitle: version 4.0
 output: pdf
 defaults:
@@ -71,7 +71,7 @@ These pages should appear in your sidebar YML file (in this theme, sidebar_doc.y
 
 ```json
   - title:
-    audience: writers, designers
+    audience: writers, programmers
     platform: all
     product: all
     version: all
@@ -80,7 +80,7 @@ These pages should appear in your sidebar YML file (in this theme, sidebar_doc.y
     items:
     - title:
       url: /titlepage.html
-      audience: writers, designers
+      audience: writers, programmers
       platform: all
       product: all
       version: all
@@ -88,7 +88,7 @@ These pages should appear in your sidebar YML file (in this theme, sidebar_doc.y
       type: frontmatter
     - title:
       url: /tocpage.html
-      audience: writers, designers
+      audience: writers, programmers
       platform: all
       product: all
       version: all
@@ -306,8 +306,8 @@ echo "Building PDF-friendly HTML site for Mydoc Writers ..."
 jekyll serve --detach --config configs/mydoc/config_writers.yml,configs/mydoc/config_writers_pdf.yml
 echo "done"
 
-echo "Building PDF-friendly HTML site for Mydoc Designers ..."
-jekyll serve --detach --config configs/mydoc/config_designers.yml,configs/mydoc/config_designers_pdf.yml
+echo "Building PDF-friendly HTML site for Mydoc programmers ..."
+jekyll serve --detach --config configs/mydoc/config_programmers.yml,configs/mydoc/config_programmers_pdf.yml
 echo "done"
 
 echo "All done serving up the PDF-friendly sites. Now let's generate the PDF files from these sites."
@@ -327,9 +327,9 @@ echo "Building the Mydoc Writers PDF ..."
 prince --javascript --input-list=../doc_outputs/mydoc/writers-pdf/prince-file-list.txt -o mydoc/files/mydoc_writers_pdf.pdf;
 echo "done"
 
-# Doc Designers
-echo "Building Mydoc Designers PDF ..."
-prince --javascript --input-list=../doc_outputs/mydoc/designers-pdf/prince-file-list.txt -o mydoc/files/mydoc_designers_pdf.pdf;
+# Doc programmers
+echo "Building Mydoc programmers PDF ..."
+prince --javascript --input-list=../doc_outputs/mydoc/programmers-pdf/prince-file-list.txt -o mydoc/files/mydoc_programmers_pdf.pdf;
 echo "done"
 
 echo "All done building the PDFs!"

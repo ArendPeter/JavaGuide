@@ -8,9 +8,9 @@ clear
 echo "Serving Writers PDF"
 jekyll serve --detach --config configs/config_writers.yml,configs/config_writers_pdf.yml
 
-# Designers
-echo "Serving Designers PDF"
-jekyll serve --detach --config configs/config_designers.yml,configs/config_designers_pdf.yml
+# programmers
+echo "Serving programmers PDF"
+jekyll serve --detach --config configs/config_programmers.yml,configs/config_programmers_pdf.yml
 
 echo "All done."
 echo "Now run . mydoc_multibuild_pdf.sh"

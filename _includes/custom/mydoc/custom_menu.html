@@ -5,7 +5,7 @@
     <ul class="dropdown-menu">
         <li {% if site.audience == "writers" %}class="dropdownActive"{% endif %}><a href="{% if page.homepage == true or page.switch == false %}../mydoc_writers/">Writer docs</a> {% else %} ../mydoc_writers{{page.url}}">Writer docs</a>{% endif %}</li>
 
-<li {% if site.audience == "designers" %}class="dropdownActive"{% endif %}><a href="{% if page.homepage == true or page.switch == false %}../mydoc_designers/">Designer docs</a> {% else %} ../mydoc_designers{{page.url}}">Designer docs</a>{% endif %}</li>
+<li {% if site.audience == "programmers" %}class="dropdownActive"{% endif %}><a href="{% if page.homepage == true or page.switch == false %}../java_guide/">Designer docs</a> {% else %} ../java_guide{{page.url}}">Designer docs</a>{% endif %}</li>
 
 </ul>
 </li>
