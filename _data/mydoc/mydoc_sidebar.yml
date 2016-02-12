@@ -43,7 +43,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-    - title: Windows Exersizes
+    - title: Windows Exercises
       url: /mydoc/1b_Installing4Win_ex.html
       audience: programmers
       platform: all
@@ -57,7 +57,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-    - title: Mac/OSX Exersizes
+    - title: Mac/OSX Exercises
       url: /mydoc/1d_Installing4Mac_ex.html
       audience: programmers
       platform: all
@@ -78,15 +78,15 @@ entries:
       product: all
       version: all
       output: web, pdf
-    - title: Understanding Hello World
-      url: /mydoc/2b_UnderstandHelloWorld.html
+    - title: Understanding The Code
+      url: /mydoc/2b_UnderstandTheCode.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Exersizes
-      url: /mydoc/2c_Exersizes.html
+    - title: Exercises
+      url: /mydoc/2c_Exercises.html
       audience: programmers
       platform: all
       product: all
@@ -128,7 +128,7 @@ entries:
     product: all
     version: all
     output: web, pdf
-  - title: Final Project 
+  - title: Final Project
     audience: programmers
     platform: all
     product: all
