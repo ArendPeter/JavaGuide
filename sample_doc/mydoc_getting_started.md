@@ -35,7 +35,7 @@ Before you start customizing the theme, make sure you can build the theme with t
  
     {{site.data.alerts.tip}} The main goal of this theme is to enable single sourcing. With single sourcing, you build multiple outputs from the same source, with somewhat different content in each output based on the particular product, platform, version, and audience. You don't have to use this theme for single sourcing, but most tech writing projects require this. If you're not a technical writer or not creating documentation, this theme is probably not for you. It doesn't have any post features coded, just pages.{{site.data.alerts.end}}
     
-    There are four configuration files in this project: config_writers.yml and config_programmers.yml as well as their PDF equivalents. The idea is that there's an output specific to writers, and an output specific to programmers. 
+    There are four configuration files in this project: config_writers.yml and config_programmers.yml as well as their PDF equivalents. The idea is that there's an output specific to and an output specific to programmers. 
     
     In reality, both of these outputs are pretty much the same. I mainly incorporated two outputs here mainly to demonstrate how the single sourcing works.
 

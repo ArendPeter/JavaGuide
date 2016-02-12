@@ -71,7 +71,7 @@ These pages should appear in your sidebar YML file (in this theme, sidebar_doc.y
 
 ```json
   - title:
-    audience: writers, programmers
+    audience: programmers
     platform: all
     product: all
     version: all
@@ -80,7 +80,7 @@ These pages should appear in your sidebar YML file (in this theme, sidebar_doc.y
     items:
     - title:
       url: /titlepage.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all
@@ -88,7 +88,7 @@ These pages should appear in your sidebar YML file (in this theme, sidebar_doc.y
       type: frontmatter
     - title:
       url: /tocpage.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all

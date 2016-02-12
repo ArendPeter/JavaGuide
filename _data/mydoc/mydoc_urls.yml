@@ -1,18 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 home:
   title: "Introduction"
   url: "../mydoc/home.html"
@@ -380,12 +365,3 @@ tag_special_layouts:
   title: "Support"
   url: "../mydoc_support.html"
   link: "<a href='../mydoc_support.html'>Support</a>"
-
-
-
-
-
-
-
-
-

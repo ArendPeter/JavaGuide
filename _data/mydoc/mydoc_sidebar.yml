@@ -5,7 +5,7 @@ entries:
 - title: Sidebar
   subcategories:
   - title:
-    audience: writers, programmers
+    audience: programmers
     platform: all
     product: all
     version: all
@@ -14,7 +14,7 @@ entries:
     items:
     - title:
       url: /titlepage.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all
@@ -22,7 +22,7 @@ entries:
       type: frontmatter
     - title:
       url: /tocpage.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all
@@ -30,7 +30,7 @@ entries:
       type: frontmatter
 
   - title: Installing Java
-    audience: writers, programmers
+    audience: programmers
     platform: all
     product: all
     version: all
@@ -38,34 +38,34 @@ entries:
     items:
     - title: Windows
       url: /mydoc/1a_Installing4Win.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
     - title: Windows Exersizes
       url: /mydoc/1b_Installing4Win_ex.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
     - title: Mac/OSX
       url: /mydoc/1c_Installing4Mac.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
     - title: Mac/OSX Exersizes
       url: /mydoc/1d_Installing4Mac_ex.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
   - title: Hello World
-    audience: writers, programmers
+    audience: programmers
     platform: all
     product: all
     version: all
@@ -73,22 +73,64 @@ entries:
     items:
     - title: Code Compile Run
       url: /mydoc/2a_CodeCompileRun.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
     - title: Understanding Hello World
       url: /mydoc/2b_UnderstandHelloWorld.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
     - title: Exersizes
       url: /mydoc/2c_Exersizes.html
-      audience: writers, programmers
+      audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
+  - title: Variables
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+  - title: Scanning For Input
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+  - title: Arithmetic
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+  - title: Methods
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+  - title: Logic
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+  - title: Rock, Paper, Scissor
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+  - title: Final Project 
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
