@@ -5,7 +5,9 @@ audience: programmers
 type:
 homepage:
 ---
+
 ##3.1.1 Use of Variables
+
 Variables are names that we can assign to values (these values can be numbers but they could be other things as well). The main benefit to using variables is that if we need to make changes we can adjust that variable rather than change the value whenever it's used.
 
 For example if you were to write a story the same name would come up a lot
@@ -21,13 +23,12 @@ If the name needed to be changed you can imagine that it would be very tedious t
 This specific application of variables is used in a lot of video games.
 
 ![](img/3a_pokemon.png)
-![](img/3a_ff7.png)
-![](img/3a_brawl.png)
+![](img/3a_ff7.jpg)
+![](img/3a_brawl.jpg)
 
-Aside from that there are tons of practical situations when you'd want to use variables in code. Websites have variables to represent your user name, your phone has a variable representing what it's battery life is and if you ever change a setting in any program there's a variable behind the scenes that's being updated. 
+Aside from that there are tons of practical situations when you'd want to use variables in code. Websites have variables to represent your user name, your phone has a variable representing what it's battery life is and if you ever change a setting in any program there's a variable behind the scenes that's being updated.
 
 ##3.1.2 Basic Syntax
-
 
 3 Variables
 	3.2 Data Storage
