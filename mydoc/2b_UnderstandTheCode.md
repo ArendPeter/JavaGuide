@@ -7,7 +7,7 @@ homepage:
 ---
 Now let’s break down the program. Here’s the entire program from Figure 2.1 again for reference.
 
-{% highlight java %}
+~~~
 1.	//My first Java program  
 2.	  
 3.	public class HelloWorld{  
@@ -15,14 +15,14 @@ Now let’s break down the program. Here’s the entire program from Figure 2.1 
 5.	        System.out.println("Hello World");  
 6.	    }  
 7.	}  
-{% endhighlight %}
+~~~
 
 ##2.2.1 Comments
 
-{% highlight java %}
+~~~
 1.	//My first Java program  
 2.	  
-{% endhighlight %}
+~~~
 
 The first line is a comment. Comments don’t affect you program in any way. The only purpose is to clarify what’s happening in your code to anyone who may be reading it.
 There are 2 primary ways to write comments in Java: `//` and `/*` `*/`.
@@ -32,11 +32,11 @@ After the comment there’s an empty line. In Java ( and most other programming 
 
 ##2.2.2 Class declaration
 
-{% highlight java %}
+~~~
 3.  public class HelloWorld{
 
 7.  }
-{% endhighlight %}
+~~~
 
 This line declares a class. There are several detail here which we’ll skip over. For now you can think of classes as programs in Java and all your code must be within a class.
 
@@ -53,11 +53,11 @@ This line declares a class. There are several detail here which we’ll skip ove
 
 ##2.2.3 Main method
 
-{% highlight java %}
+~~~
 4.    public static void main(String[] args){
 
 6.    }
-{% endhighlight %}
+~~~
 
 This line is the definition for the main method. Again there are a lot of details here which we’ll skip over.
 
@@ -77,9 +77,9 @@ This line is the definition for the main method. Again there are a lot of detail
 
 ## 2.2.4 Printing to the console
 
-{% highlight java %}
+~~~java
 5.      System.out.println("Hello World");
-{% endhighlight %}
+~~~
 
 This is the only line that’s executed in our main method. System.out.println() is a method that is used to print things to the console. It takes a String (covered in Chapter 3) as an input. Whenever you have text which should be seen as a series of words (formally called Strings) as opposed to Java code you use the “ ” quotations. Here we’re saying that Hello World is a String so we put it in quotations.
 
