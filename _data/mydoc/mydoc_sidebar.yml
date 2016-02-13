@@ -100,7 +100,7 @@ entries:
     output: web, pdf
     items:
     - title: Variable Basics
-      url: /mydoc/3a_VarBasics.html
+      url: /mydoc/3a_VariableBasics.html
       audience: programmers
       platform: all
       product: all
@@ -121,7 +121,7 @@ entries:
       version: all
       output: web, pdf
     - title: Programming With Variables
-      url: /mydoc/3d_VariableProgram.html  
+      url: /mydoc/3d_VariableProgram.html
       audience: programmers
       platform: all
       product: all
