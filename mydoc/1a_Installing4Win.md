@@ -1,5 +1,5 @@
 ---
-title: Installing Java
+title: Installing Java On Windows
 tags:
 audience: programmers
 type:
