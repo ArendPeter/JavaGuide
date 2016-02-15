@@ -81,7 +81,7 @@ This line is the definition for the main method. Again there are a lot of detail
 5.      System.out.println("Hello World");
 ~~~
 
-This is the only line that’s executed in our main method. System.out.println() is a method that is used to print things to the console. It takes a String (covered in Chapter 3) as an input. Whenever you have text which should be seen as a series of words (formally called Strings) as opposed to Java code you use the “ ” quotations. Here we’re saying that Hello World is a String so we put it in quotations.
+This is the only line that’s executed in our main method. `System.out.println()` is a method that is used to print things to the console. It takes a String (covered in Chapter 3) as an input. Whenever you have text which should be seen as a series of words (formally called Strings) as opposed to Java code you use the double quotes `“ ”` quotations. Here we’re saying that Hello World is a String so we put it in quotations.
 
 To print more lines to the console you can just call this method multiple times.
 
