@@ -1,11 +1,10 @@
 ---
-title: Installing Java 
+title: 1.2 Exercieses 
 tags:
 audience: programmers
 type:
 homepage:
 ---
-# 1.2 Exercises
 To get more practice try performing the following actions
 
 1.	Navigate to the directory where you installed Java

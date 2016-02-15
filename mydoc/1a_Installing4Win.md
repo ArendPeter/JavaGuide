@@ -1,13 +1,11 @@
 ---
-title: Installing Java
+title: 1.1 Windows Setup
 tags:
 audience: programmers
 type:
 homepage:
 ---
 To start out with we’ll be installing Java and adding it to our path so that we can access it from the command line.
-
-# 1.1 Windows Setup
 
 ## 1.1.1 Downloading and Installing Java
 Here is a link to a download to the most current version of Java at the time of creating this document.
