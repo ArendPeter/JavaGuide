@@ -57,10 +57,3 @@ If you're interested in learning more about character encoding you can look at s
 The previous eight data types represent all the primitive types in the Java language. The rest of the types are considered reference types and the most common of them is `String`.
 
 `String` is used to represent text. Behind the scenes a `String` is just a series of characters glued together. One of the reasons why `String` cant operate as primitive types is that it can't fit within a specific number of bytes. The size depends on the number of characters which are included in the string.
-
-3 Variables
-	3.4 Example Program
-		3.4.1 	Wring the Program
-		3.4.2	Quotations
-		3.4.3 	Number modifiers
-		3.4.4	String Concatenation

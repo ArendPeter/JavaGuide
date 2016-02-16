@@ -94,4 +94,4 @@ Now that we understand binary we can we write this is a manner that's more repre
 01001011
 ~~~
 
-Now we can clearly see that a byte of data is required to store each value.
+Now we can clearly see that a byte of data is required to store each value. At this point it should also be clear to you that in general bigger numbers take up more space in memory.

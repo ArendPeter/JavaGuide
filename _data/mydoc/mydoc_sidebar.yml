@@ -127,6 +127,13 @@ entries:
       product: all
       version: all
       output: web, pdf
+    - title: Variable Exercises
+      url: /mydoc/3e_VariableExercises.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
   - title: Scanning For Input
     audience: programmers
     platform: all
