@@ -140,6 +140,35 @@ entries:
     product: all
     version: all
     output: web, pdf
+    items:
+    - title: Importing
+      url: /mydoc/4a_Importing.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: Objects
+      url: /mydoc/4b_Objects.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: Scanner
+      url: /mydoc/4c_Scanner.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: Scanner Exercises 
+      url: /mydoc/4d_ScannerExercises.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
   - title: Arithmetic
     audience: programmers
     platform: all
