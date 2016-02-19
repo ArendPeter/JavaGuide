@@ -17,7 +17,7 @@ Now let’s break down the program. Here’s the entire program from Figure 2.1 
 7.	}  
 ~~~
 
-##2.2.1 Comments
+## 2.2.1 Comments
 
 ~~~
 1.	//My first Java program  
@@ -30,7 +30,7 @@ After typing `//` the remainder of the line will be interpreted as a comment.
 After typing `/*` everything following until `*/` will be considered a comment. This format is useful if you want your comment to span multiple lines or if you want to have more code be written on the same line after the comment.
 After the comment there’s an empty line. In Java ( and most other programming languages ) you can include as much whitespace between symbols as you like. This empty line will have no effect on the program but serves to organize the various sections of our program.
 
-##2.2.2 Class declaration
+## 2.2.2 Class declaration
 
 ~~~
 3.  public class HelloWorld{
@@ -51,7 +51,7 @@ This line declares a class. There are several detail here which we’ll skip ove
 
 `{ }` brackets are common in most programming languages. They’re used to separate different regions. In this case it indicates what’s in this class. So everything between those brackets is considered to be in the HelloWorld class.
 
-##2.2.3 Main method
+## 2.2.3 Main method
 
 ~~~
 4.    public static void main(String[] args){
@@ -75,7 +75,21 @@ This line is the definition for the main method. Again there are a lot of detail
 
 `{ }` as with the class definition the brackets indicate what’s inside of our method. So here everything that’s inside the two brackets are within the main method.
 
-## 2.2.4 Printing to the console
+## 2.2.4 Methods
+
+So we're not going to be working with methods in great detail until Chapter 6 but until then I want you to have a working understanding of them to let's take care of that now.
+
+A method (which is pretty much the same as a function if you're familiar with that terminology) is a piece of code that does stuff. You can make use of the code by calling the method and that looks like this.
+
+~~~java
+methodName(1,2,3);
+~~~
+
+Here `methodName` is the name of the method. You know that `methodName` is a method because it's followed by a pair of parenthesis `()`. When you're calling a method you put the parameters (also called arguments) between the parenthesis `()` and the individual parameters are separated by commas `,`, so in this case we have 3 parameters and they are `1`, `2`, and `3`.
+
+That you're working definition of a method. You'll notice that `System.out.println(...)` follows this format.
+
+## 2.2.5 Printing to the console
 
 ~~~java
 5.      System.out.println("Hello World");
