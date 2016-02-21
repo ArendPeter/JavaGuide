@@ -28,7 +28,7 @@ You see there are pretty much 3 components: `java`, `lang`, and `Math`. `Math` i
 
 ##	4.1.2 Dot Operator
 
-If you look at the import statements you'll see that the packages and classes are separated by periods `.`. This is called the **dot operator** and in programming it indicates ownership. So in our imports `java.lang.Math` means `java` who owns `lang` who owns `Math`. It's actually very similar to `'s` in english so `import java.lang.Math` pretty much has the same structure as `take out Bob's Mom's Dog`.
+If you look at the import statements you'll see that the packages and classes are separated by periods `.`. This is called the **dot operator** and in programming it indicates ownership. So in our imports `java.lang.Math` means `java` who owns `lang` who owns `Math`. It's actually very similar to `'s` in english so `import java.lang.Math` pretty much has the same structure as `let out Bob's Mom's Dog`.
 
 ##	4.1.3 Example
 
@@ -38,26 +38,12 @@ Here's an example of how you would use the `Math` class
 import java.lang.Math;
 
 public class MathTest{
-		public static void main(){
-			System.out.println(Math.max(2,7));
-		}
+	public static void main(){
+		System.out.println(Math.PI);
+	}
 }
 ~~~
 
-Here we use the `max` method to find out whether `2` or `7` is bigger, so this program should print out `7`. Notice that we used the dot operator is indicate that the max method belongs to the Math class. Also now that we've covered the dot operator you may notice that `System.out.println()` also uses the dot operator. So `System.out.println()` really means, call the `println` method from within `out` which is in `System`.
+Here we use the `PI` variable in the Math class to print out the value of PI. Notice that we used the dot operator is indicate that PI belongs to the Math class. Also now that we've covered the dot operator you may notice that `System.out.println()` also uses the dot operator. So `System.out.println()` really means, call the `println` method from within `out` which is in `System`.
 
-> **Note:** I've been misleading you slightly. Since the classes in java.lang are so useful Java actually imports it automatically without you needing to type out the import statement everytime. I just think that the Math class was a perfect candidate for the first example so I used it. Having the import there anyway doesn't hurt anything it's just unnecessary.
-
-Chapter 4 Scanning for Input
-4.1 Importing
-4.2 Objects
-	4.2.1 Creating Objects
-	4.2.2 new Operator
-	4.2.3 Constructors
-	4.2.4 Examples
-4.3 Scanner
-	4.3.1 Scanner Program
-	4.3.2 Scanner Creations
-	4.3.3 Input Methods
-	4.3.4 Closing Scanner
-4.4 Exercises
+> **Note:** I've been misleading you slightly. Since the classes in java.lang are so useful Java actually imports them automatically without you needing to type out the import statement everytime. I just thought that the Math class was a perfect candidate for the first example so I used it. Having the import there anyway doesn't hurt anything it's just unnecessary.
