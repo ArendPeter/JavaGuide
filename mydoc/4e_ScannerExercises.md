@@ -12,4 +12,4 @@ homepage:
 
 3. Add 3 more questions to the survey we created in 4.4
 
-4. Create a (MadLib)[https://en.wikipedia.org/wiki/Mad_Libs] using Scanner. Additionally find a scanner method we haven't used yet and use it in the MadLib.
+4. Create a [MadLib](https://en.wikipedia.org/wiki/Mad_Libs) using Scanner. Additionally find a scanner method we haven't used yet and use it in the MadLib.
