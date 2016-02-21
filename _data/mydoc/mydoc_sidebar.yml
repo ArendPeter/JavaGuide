@@ -156,7 +156,7 @@ entries:
       version: all
       output: web, pdf
     - title: Using the Internet
-      url: /mydoc/4c_Internet.html
+      url: /mydoc/4c_TheInternet.html
       audience: programmers
       platform: all
       product: all
