@@ -36,6 +36,8 @@ Rectangle r3 = new Rectangle(1,4,3,5); //sets the upper left to (1,4), with widt
 Here's an example based on the the point code snippet from earlier
 
 ~~~java
+import java.awt.Point;
+
 public class ObjectExample{
 	public static void main(String[] args){
 		Point p = new Point(3,4);

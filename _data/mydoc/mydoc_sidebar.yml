@@ -155,15 +155,22 @@ entries:
       product: all
       version: all
       output: web, pdf
-    - title: Scanner
-      url: /mydoc/4c_Scanner.html
+    - title: Using the Internet
+      url: /mydoc/4c_Internet.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Scanner Exercises 
-      url: /mydoc/4d_ScannerExercises.html
+    - title: Scanner
+      url: /mydoc/4d_Scanner.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: Scanner Exercises
+      url: /mydoc/4e_ScannerExercises.html
       audience: programmers
       platform: all
       product: all
