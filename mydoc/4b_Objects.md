@@ -45,9 +45,3 @@ public class ObjectExample{
 	}
 }
 ~~~
-4.3 Scanner
-	4.3.1 Scanner Program
-	4.3.2 Scanner Creations
-	4.3.3 Input Methods
-	4.3.4 Closing Scanner
-4.4 Exercises
