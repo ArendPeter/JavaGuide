@@ -26,7 +26,7 @@ public class Input{
 
     scan.close();
 
-    System.out.println("You're name is "+name+" and you are "+age+"years old");
+    System.out.println("You're name is "+name+" and you are "+age+" years old");
   }
 }
 ~~~
@@ -57,6 +57,10 @@ int age = scan.nextInt();
 `nextLine()` and `nextInt()` are within the scan object. This why we use `scan.` to refer to those methods. These methods don't just "do stuff" they also "give stuff". `nextLine()` "does stuff" by looking at the command line and reading in the next input, it also "gives stuff" by taking the input that it found and sending it through. This is why we put `String name =` in front of the method. We're taking the input that `nextLine()` found and we're storing it in a variable so that we can use it later. `nextLine()` pulls all the words on the line and sends it back as a `String` object. That's why we specify `String` as the type of our `name` variable. Similarly `nextInt()` tries to grab a number from the next line and returns it as a `int` type. Thus we use an specify our `age` variable to be of type `int`.
 
 ## 4.3.4 Closing Scanner
+
+~~~java
+scan.close();
+~~~
 
 Once we've taken our inputs from the command line we have no more need to `scan`. By calling `close()` within `scan` we're telling it to stop listening to the input stream. If we don't do this scan will keep listening and it will continue to consume processing power in the background.
 
