@@ -182,6 +182,7 @@ entries:
     product: all
     version: all
     output: web, pdf
+    items:
     - title: Operators in Java
       url: /mydoc/5a_Operators.html
       audience: programmers
