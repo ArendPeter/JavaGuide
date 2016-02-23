@@ -189,6 +189,34 @@ entries:
       product: all
       version: all
       output: web, pdf
+    - title: Arithmetic Program
+      url: /mydoc/5b_ArithmeticProgram.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: Variable Casting
+      url: /mydoc/5c_Casting.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: Variable Initialization
+      url: /mydoc/5d_VariableInit.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: Exercises
+      url: /mydoc/5e_ArithmeticExercises.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
   - title: Methods
     audience: programmers
     platform: all

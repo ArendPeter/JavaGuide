@@ -48,4 +48,5 @@ This would store a value of 16 in `c`, it adds the `3` first to get 8 then it mu
 
 5.2 Arithmetic Program
 5.3 Variable Casting
+5.4 Intitialization vs. normal usage (i.e. when to include type)
 5.4 Exercises
