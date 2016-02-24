@@ -5,7 +5,7 @@ audience: programmers
 type:
 homepage:
 ---
-Now let’s break down the program. Here’s the entire program from Figure 2.1 again for reference.
+Now let’s break down the program. Here’s the entire program from again for reference.
 
 ~~~
 1.	//My first Java program  

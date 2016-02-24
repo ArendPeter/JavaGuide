@@ -19,8 +19,6 @@ Once you've chosen your editor open it up and type the following code.
 7.  }
 ~~~
 
-**Figure 2.1** Hello World program
-
 There’s a lot of information here and we’ll be breaking it down soon but first let’s get it to run. Save the file as “HelloWorld.java” and navigate to that location in command prompt.
 The process of programming can be broken down into 3 steps.
 
@@ -33,7 +31,5 @@ We’ve just written the code however it’s written in Java and although we may
 >**Note:** The Java compiler is different from the compilers in other languages in that it doesn’t actually compile the code down to machine code. Instead it compiles it down to something called byte codes. The final compilation actually isn’t performed until the program is ran, where the Java Virtual Machine (JVM) takes the bytes codes and converts it to machine code. This is why Java and other languages like it are said to use Just-In-Time (JIT) compilers. The benefit is that you can compile it to bytecodes and then any platform with a JVM installed will be able to run your program. The drawback is that it hurts performance when the program is ran. We can compile the program by inputting `javac HelloWorld.java` then if you run `dir` you’ll notice that a new file called “HelloWorld.class” is created. This is the file which stores all the byte codes. Finally you can execute `java HelloWorld` to see what our program does.
 
  ![](img/2a_CompileRun.png)
-
-**Figure 2.2** The steps to compile and run a Java program
 
 If you got errors at the compilation step don’t panic. Just look back at the code and make sure you typed everything exactly as I did. Keep in mind that every character is important (including semi-colons) and that Java is case sensitive.

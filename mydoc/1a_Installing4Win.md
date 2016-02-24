@@ -43,11 +43,9 @@ Now look under the “System variables” section, select “Path”, then click
 
 Add a semi-colon to the previous path, then paste the Java installation directory, which was copied earlier. Also make sure there is no whitespace at the end of your path.
 Hit ok on all the open windows to back out of this area and to apply your changes.
-Next close your original command prompt window and open a new one. Now when you type `javac` it should give you a list of options indicating how this command is intended to be used as can be seen in figure 1.1.
+Next close your original command prompt window and open a new one. Now when you type `javac` it should give you a list of options indicating how this command is intended to be used as can be seen below.
 
 ![](img/1a_javac_post.png)
-
-**Figure 1.1** Output by `javac` once Java is installed
 
 ## 1.1.3 Command Prompt Basics
 
@@ -58,17 +56,15 @@ For this guide there are about 9 commands you’ll need for basic command prompt
 | cd ..            | Navigate up a directory |
 | cd <directory>   | Navigate down to a specific directory |
 | dir              | List all files and directories in current directory|  
-| cls				       | Clear the screen |
-| help				     | Lists all command prompt commands |
+| cls			   | Clear the screen |
+| help		       | Lists all command prompt commands |
 | help <command>   | Lists the usage for a specific command |
-| java				     | Run a java program |
-| javac				     | Compile a java program |
-| color				     | Change the color of your screen |
-
-**Figure 1.2** List of basic command prompt commands
+| java			   | Run a java program |
+| javac		       | Compile a java program |
+| color			   | Change the color of your screen |
 
 The last one isn’t really essential but it’s just fun to use. For example inputting `color 70` will invert the colors on your command prompt window.
-As an example of navigating through directories in Figure 1.3 I’ve used `dir` to see what’s in my directory. I saw “Desktop” in that list so I used `cd Desktop` to navigate to my desktop. Then I used `cd ..` to go back to my user directory.
+As an example of navigating through directories, below I’ve used `dir` to see what’s in my directory. I saw “Desktop” in that list so I used `cd Desktop` to navigate to my desktop. Then I used `cd ..` to go back to my user directory.
 
 ![](img/1a_dos_ex.png)
 
