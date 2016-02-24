@@ -67,5 +67,3 @@ The last one isn’t really essential but it’s just fun to use. For example in
 As an example of navigating through directories, below I’ve used `dir` to see what’s in my directory. I saw “Desktop” in that list so I used `cd Desktop` to navigate to my desktop. Then I used `cd ..` to go back to my user directory.
 
 ![](img/1a_dos_ex.png)
-
-**Figure 1.1** Example of navigating within command prompt

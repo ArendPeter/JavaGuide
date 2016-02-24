@@ -10,13 +10,13 @@ Now that we have Java setup we can write our first program. Just open up a text 
 Once you've chosen your editor open it up and type the following code.
 
 ~~~java
-1.  //My first Java program
-2.  
-3.  public class HelloWorld{
-4.    public static void main(String[] args){
-5.      System.out.println();
-6.    }
-7.  }
+//My first Java program
+
+public class HelloWorld{
+    public static void main(String[] args){
+        System.out.println();
+    }
+}
 ~~~
 
 There’s a lot of information here and we’ll be breaking it down soon but first let’s get it to run. Save the file as “HelloWorld.java” and navigate to that location in command prompt.

@@ -8,20 +8,20 @@ homepage:
 Now let’s break down the program. Here’s the entire program from again for reference.
 
 ~~~
-1.	//My first Java program  
-2.	  
-3.	public class HelloWorld{  
-4.	    public static void main(String[] args){  
-5.	        System.out.println("Hello World");  
-6.	    }  
-7.	}  
+//My first Java program  
+	  
+public class HelloWorld{  
+    public static void main(String[] args){  
+        System.out.println("Hello World");  
+    }  
+}  
 ~~~
 
 ## 2.2.1 Comments
 
 ~~~
-1.	//My first Java program  
-2.	  
+//My first Java program  
+  
 ~~~
 
 The first line is a comment. Comments don’t affect you program in any way. The only purpose is to clarify what’s happening in your code to anyone who may be reading it.
@@ -33,9 +33,9 @@ After the comment there’s an empty line. In Java ( and most other programming 
 ## 2.2.2 Class declaration
 
 ~~~
-3.  public class HelloWorld{
+public class HelloWorld{
 
-7.  }
+}
 ~~~
 
 This line declares a class. There are several detail here which we’ll skip over. For now you can think of classes as programs in Java and all your code must be within a class.
@@ -54,9 +54,9 @@ This line declares a class. There are several detail here which we’ll skip ove
 ## 2.2.3 Main method
 
 ~~~
-4.    public static void main(String[] args){
+public static void main(String[] args){
 
-6.    }
+}
 ~~~
 
 This line is the definition for the main method. Again there are a lot of details here which we’ll skip over.
@@ -92,7 +92,7 @@ That you're working definition of a method. You'll notice that `System.out.print
 ## 2.2.5 Printing to the console
 
 ~~~java
-5.      System.out.println("Hello World");
+System.out.println("Hello World");
 ~~~
 
 This is the only line that’s executed in our main method. `System.out.println()` is a method that is used to print things to the console. It takes a String (covered in Chapter 3) as an input. Whenever you have text which should be seen as a series of words (formally called Strings) as opposed to Java code you use the double quotes `“ ”` quotations. Here we’re saying that Hello World is a String so we put it in quotations.
