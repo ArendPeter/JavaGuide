@@ -198,7 +198,7 @@ entries:
       version: all
       output: web, pdf
     - title: Variable Casting
-      url: /mydoc/5c_Casting.html
+      url: /mydoc/5c_VariableCasting.html
       audience: programmers
       platform: all
       product: all

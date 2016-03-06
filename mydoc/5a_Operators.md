@@ -10,7 +10,9 @@ homepage:
 
 There are 5 basic operators used in Java. Those are:
 
-| + | - | * | / | % |
+~~~
+ +  -  *  /  % 
+~~~
 
 Most of these are pretty basic plus `+` adds, minus `-` subtracts, star `*` multiplies, and backward slash `\` divides. Percent `%` is called modulus. We won't be using it in this guide but in case you'd like to learn about it, here's a tutorial that I made a while ago.
 
