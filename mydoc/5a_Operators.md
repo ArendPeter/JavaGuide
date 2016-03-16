@@ -11,7 +11,7 @@ homepage:
 There are 5 basic operators used in Java. Those are:
 
 ~~~
- +  -  *  /  % 
+ +  -  *  /  %
 ~~~
 
 Most of these are pretty basic plus `+` adds, minus `-` subtracts, star `*` multiplies, and backward slash `\` divides. Percent `%` is called modulus. We won't be using it in this guide but in case you'd like to learn about it, here's a tutorial that I made a while ago.
@@ -47,8 +47,3 @@ int c = 2 * (a + 3);
 ~~~
 
 This would store a value of 16 in `c`, it adds the `3` first to get 8 then it multiplies by 2 to get 16.
-
-5.2 Arithmetic Program
-5.3 Variable Casting
-5.4 Intitialization vs. normal usage (i.e. when to include type)
-5.4 Exercises
