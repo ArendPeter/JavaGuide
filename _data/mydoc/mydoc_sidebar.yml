@@ -225,35 +225,35 @@ entries:
     version: all
     output: web, pdf
     items:
-    - title: Method Basics 
+    - title: Method Basics
       url: /mydoc/6a_MethodBasics.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Performing Actions 
+    - title: Performing Actions
       url: /mydoc/6b_PerformingActions.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Inputting Parameters 
-      url: /mydoc/6c_InuttingParameters.html
+    - title: Input Parameters
+      url: /mydoc/6c_InputParameters.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Returning Data 
+    - title: Returning Data
       url: /mydoc/6d_ReturningData.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Method Exercises 
+    - title: Method Exercises
       url: /mydoc/6e_MethodExercises.html
       audience: programmers
       platform: all
