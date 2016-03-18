@@ -39,7 +39,7 @@ One of the confusing concepts related to using methods is that the code flow cha
 
 When it comes to calling methods the program jumps towards where the method is defined and then comes back.
 
-![](img/6a_linear_flow.png)
+![](img/6a_method_flow.png)
 
 Here the first to 2 print statments in main are executed. Then `talkAboutTheWeather()` is called and the program jumps to where the method is defined, it then goes back to where the method is called and completes the code in the main method.
 
