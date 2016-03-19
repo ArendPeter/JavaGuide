@@ -11,6 +11,8 @@ homepage:
 Here's our sample program for this chapter
 
 ~~~java
+import java.util.Scanner;
+
 public class Arith{
   public static void main(String[] args){
     Scanner scan=new Scanner(System.in);

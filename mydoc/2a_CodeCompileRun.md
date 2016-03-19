@@ -1,11 +1,11 @@
 ---
-title: Code Compile Run
+title: 2.1 Code Compile Run
 tags:
 audience: programmers
 type:
 homepage:
 ---
-Now that we have Java setup we can write our first program. Just open up a text editor and we can get started. Any text editor should work however I recommend using a basic text editor which does not include auto complete. When you’re starting out I feel that’s it’s good practice to type out everything to ensure that you understand it. Syntax highlighting however is a nice feature that you may want to have for your text editor. My current go to text editor is Atom , however other good basic text editors include Notepad2, Notepad++, and Sublime Text.
+Now that we have Java setup we can write our first program. Just open up a text editor and we can get started. Any text editor should work however I recommend using a basic text editor which does not include auto complete. When you’re starting out I feel that’s it’s good practice to type out everything to ensure that you understand it. Syntax highlighting however is a nice feature that you may want to have for your text editor. My current go-to text editor is Atom, however other good basic text editors include Notepad2, Notepad++, and Sublime Text.
 
 Once you've chosen your editor open it up and type the following code.
 

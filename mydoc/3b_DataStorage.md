@@ -66,7 +66,7 @@ Here's some additional terminology that applies to binary numbers on computers
 * Single binary digits are called *bits*
 * Sets of 8 bits are called *bytes*
 
-So we could say that the number `136` requires a *bytes* of space.
+So we could say that the number `136` requires a single *byte* of space.
 
 If you are interested in learning more about binary and number bases in general here are some videos for you to check out
 

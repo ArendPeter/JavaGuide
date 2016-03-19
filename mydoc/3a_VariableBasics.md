@@ -14,7 +14,7 @@ For example if you were to write a story the same name would come up a lot
 
 > **Catherine** is the main character in this sample story. She is a very brave character and **Catherine** is her name. She has two dogs and she named them both **Catherine** because it's easier that way.
 
-If the name needed to be changed you can imagine that it would be very tedious to adjust all the places where the name is used. This is why we would create a variable called name, assign a value to the variable, and then reference the variable every time we need the name.
+If the name needed to be changed you can imagine that it would be very tedious to adjust all the places where the name is used. This is why we would create a variable called name, assign a value to the variable, and then reference the variable every time we need the mainCharacterName.
 
 > **mainCharacterName = Catherine**
 

@@ -54,11 +54,11 @@ In this document we’ll be using the command prompt to run our programs. Many p
 For this guide there are about 9 commands you’ll need for basic command prompt usage
 
 | cd ..            | Navigate up a directory |
-| cd <directory>   | Navigate down to a specific directory |
+| cd ```directory```   | Navigate down to a specific directory |
 | dir              | List all files and directories in current directory|  
 | cls			   | Clear the screen |
 | help		       | Lists all command prompt commands |
-| help <command>   | Lists the usage for a specific command |
+| help ```command```   | Lists the usage for a specific command |
 | java			   | Run a java program |
 | javac		       | Compile a java program |
 | color			   | Change the color of your screen |

@@ -23,7 +23,7 @@ public class Variables{
 
                 //printing information
                 System.out.println("Hello my name is "+name);
-                System.out.println("I am "+age+"        years old");
+                System.out.println("I am "+age+" years old");
                 System.out.println("My favorite color is "+color);
                 System.out.println("I would rather own a cat than a dog");
                 System.out.println("The above statement is "+likesCats);
