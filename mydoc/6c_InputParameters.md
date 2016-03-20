@@ -55,9 +55,3 @@ Here I created 2 methods, one with a single parameter and another with 2 paramet
 1. Create full methods for the definitions listed in 6.3.1.
 2. Create a method called printThrice. It takes in a string as one of it's parameters and prints that string 3 times.
 3. Create a method which takes in 3 floats and prints the average.
-
-6.4 Give Stuff
-  6.4.1 Return Type
-  6.4.2 Return Keyword
-  6.4.3 Example Program
-6.5 Exercises

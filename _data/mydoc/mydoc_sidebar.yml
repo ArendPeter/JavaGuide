@@ -253,13 +253,6 @@ entries:
       product: all
       version: all
       output: web, pdf
-    - title: 6.5 - Method Exercises
-      url: /mydoc/6e_MethodExercises.html
-      audience: programmers
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
   - title: 7 - Logic
     audience: programmers
     platform: all
