@@ -29,182 +29,182 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Installing Java
+  - title: 1 - Installing Java
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
-    - title: Windows
+    - title: 1.1 - Windows
       url: /mydoc/1a_Installing4Win.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Windows Exercises
+    - title: 1.2 - Windows Exercises
       url: /mydoc/1b_Installing4Win_ex.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Mac/OSX
+    - title: 1.3 - Mac/OSX
       url: /mydoc/1c_Installing4Mac.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Mac/OSX Exercises
+    - title: 1.4 - Mac/OSX Exercises
       url: /mydoc/1d_Installing4Mac_ex.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-  - title: Hello World
+  - title: 2 - Hello World
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
-    - title: Code Compile Run
+    - title: 2.1 - Code Compile Run
       url: /mydoc/2a_CodeCompileRun.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Understanding The Code
+    - title: 2.2 - Understanding The Code
       url: /mydoc/2b_UnderstandTheCode.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Exercises
+    - title: 2.3 - Exercises
       url: /mydoc/2c_Exercises.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-  - title: Variables
+  - title: 3 - Variables
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
-    - title: Variable Basics
+    - title: 3.1 - Variable Basics
       url: /mydoc/3a_VariableBasics.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Data Storage
+    - title: 3.2 - Data Storage
       url: /mydoc/3b_DataStorage.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Data Types
+    - title: 3.3 - Data Types
       url: /mydoc/3c_DataTypes.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Programming With Variables
+    - title: 3.4 - Programming With Variables
       url: /mydoc/3d_VariableProgram.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Variable Exercises
+    - title: 3.5 - Variable Exercises
       url: /mydoc/3e_VariableExercises.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-  - title: Scanning For Input
+  - title: 4 - Scanning For Input
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
-    - title: Importing
+    - title: 4.1 - Importing
       url: /mydoc/4a_Importing.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Objects
+    - title: 4.2 - Objects
       url: /mydoc/4b_Objects.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Using the Internet
+    - title: 4.3 - Using the Internet
       url: /mydoc/4c_TheInternet.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Scanner
+    - title: 4.4 - Scanner
       url: /mydoc/4d_Scanner.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Scanner Exercises
+    - title: 4.5 - Scanner Exercises
       url: /mydoc/4e_ScannerExercises.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-  - title: Arithmetic
+  - title: 5 - Arithmetic
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
-    - title: Operators in Java
+    - title: 5.1 - Operators in Java
       url: /mydoc/5a_Operators.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Arithmetic Program
+    - title: 5.2 - Arithmetic Program
       url: /mydoc/5b_ArithmeticProgram.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Variable Casting
+    - title: 5.3 - Variable Casting
       url: /mydoc/5c_VariableCasting.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Variable Initialization
+    - title: 5.4 - Variable Initialization
       url: /mydoc/5d_VariableInit.html
       audience: programmers
       platform: all
@@ -218,61 +218,61 @@ entries:
       product: all
       version: all
       output: web, pdf
-  - title: Methods
+  - title: 6 - Methods
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
-    - title: Method Basics
+    - title: 6.1 - Method Basics
       url: /mydoc/6a_MethodBasics.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Performing Actions
+    - title: 6.2 - Performing Actions
       url: /mydoc/6b_PerformingActions.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Input Parameters
+    - title: 6.3 - Input Parameters
       url: /mydoc/6c_InputParameters.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Returning Data
+    - title: 6.4 - Returning Data
       url: /mydoc/6d_ReturningData.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: Method Exercises
+    - title: 6.5 - Method Exercises
       url: /mydoc/6e_MethodExercises.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-  - title: Logic
+  - title: 7 Logic
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
-  - title: Rock, Paper, Scissor
+  - title: 8 Rock, Paper, Scissor
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
-  - title: Final Project
+  - title: 9 Final Project
     audience: programmers
     platform: all
     product: all
