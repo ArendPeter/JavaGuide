@@ -260,19 +260,19 @@ entries:
       product: all
       version: all
       output: web, pdf
-  - title: 7 Logic
+  - title: 7 - Logic
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
-  - title: 8 Rock, Paper, Scissor
+  - title: 8 - Rock, Paper, Scissor
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
-  - title: 9 Final Project
+  - title: 9 - Final Project
     audience: programmers
     platform: all
     product: all

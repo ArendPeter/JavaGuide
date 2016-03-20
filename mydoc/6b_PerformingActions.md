@@ -49,13 +49,3 @@ My experience has shown that, relative to other basic Java material, Methods ten
 2. Write a method called `coolQuote()` and have it print your favorite quote.
 
 You can try and play around with it by adjusting where in the program the method is defined (it shouldn't matter where it's defined). You can also try and call a method within the definition of another method.
-
-6.3 Take Stuff
-  6.3.1 Adding Input Parameters to Definition
-  6.3.2 Example Program
-    -ensure that the naming is different to drill the point
-6.4 Give Stuff
-  6.4.1 Return Type
-  6.4.2 Return Keyword
-  6.4.3 Example Program
-6.5 Exercises
