@@ -43,15 +43,8 @@ entries:
       product: all
       version: all
       output: web, pdf
-    - title: 0.3 - How to Follow
+    - title: 0.2 - How to Follow
       url: /mydoc/0b_HowToFollow.html
-      audience: programmers
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
-    - title: 0.4 - About Me
-      url: /mydoc/0c_AboutMe.html
       audience: programmers
       platform: all
       product: all
