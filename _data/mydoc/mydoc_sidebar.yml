@@ -29,7 +29,35 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: 1 - Installing Java
+  - title: 00 - Introduction
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: 0.1 - What is this?
+      url: /mydoc/0a_WhatIs.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: 0.3 - How to Follow
+      url: /mydoc/0b_HowToFollow.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: 0.4 - About Me
+      url: /mydoc/0c_AboutMe.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+  - title: 01 - Installing Java
     audience: programmers
     platform: all
     product: all
@@ -64,7 +92,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-  - title: 2 - Hello World
+  - title: 02 - Hello World
     audience: programmers
     platform: all
     product: all
@@ -92,7 +120,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-  - title: 3 - Variables
+  - title: 03 - Variables
     audience: programmers
     platform: all
     product: all
@@ -134,7 +162,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-  - title: 4 - Scanning For Input
+  - title: 04 - Scanning For Input
     audience: programmers
     platform: all
     product: all
@@ -176,7 +204,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-  - title: 5 - Arithmetic
+  - title: 05 - Arithmetic
     audience: programmers
     platform: all
     product: all
@@ -218,7 +246,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-  - title: 6 - Methods
+  - title: 06 - Methods
     audience: programmers
     platform: all
     product: all
@@ -253,19 +281,37 @@ entries:
       product: all
       version: all
       output: web, pdf
-  - title: 7 - Logic
+  - title: 07 - Logic
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
-  - title: 8 - Rock, Paper, Scissor
+  - title: 08 - Rock, Paper, Scissor
     audience: programmers
     platform: all
     product: all
     version: all
     output: web, pdf
-  - title: 9 - Final Project
+  - title: 09 - Loops
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+  - title: 10 - Arrays
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+  - title: 11 - Final Project
+    audience: programmers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+  - title: 12 - Syntax Sugar
     audience: programmers
     platform: all
     product: all
