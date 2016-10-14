@@ -6,7 +6,7 @@ type:
 homepage:
 ---
 
-## 7.1 If Statement Syntax
+## 7.1.1 If Statement Syntax
 
 ```java
 if(morning){
@@ -30,7 +30,7 @@ if(raining){
 ```
 Reaching branching logic is a big step in your programming development. With if statements your code will do different things depending on the situation, your code will no longer just execute the same path everytime, now your code can be much more dynamic.
 
-## 7.3 Examples
+## 7.1.2 Examples
 
 Here are some examples. I recommend trying to run each of them and then try to verify if they executed the way you expected. Also try changing the initial boolean variable to see how the execution changes.
 
