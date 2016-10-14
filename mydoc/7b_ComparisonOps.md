@@ -117,8 +117,8 @@ Here are the list of comparison operators that you can use in Java along with th
 | int     | 4 bytes | +/- ~2 billion |
 | long    | 8 bytes | +/- ~9 quintillion |
 
-| Java Synax  | Math Symbol |
-|:--------|:--------|
+| Java Syntax  | Math Symbol |
+|:-------------|:------------|
 | ==      | =       |
 | !=      | ≠       |
 | <=      | ≤       |
