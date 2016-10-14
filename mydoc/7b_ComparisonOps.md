@@ -112,12 +112,12 @@ Here are the list of comparison operators that you can use in Java along with th
 
 | Java Synax  | Math Symbol |
 |:--------|:--------|
-| ==    | =   |
-| !=    | ≠   |
-| <=    | ≤   |
-| <     | <   |
-| >=    | ≥   |
-| >     | >   |
+| ==      | =       |
+| !=      | ≠       |
+| <=      | ≤       |
+| <       | <       |
+| >=      | ≥       |
+| >       | >       |
 
 >**Note:** Just want to clarify that `==` and `=` are different. Remember that `=` is the assignment operator, so `a = b` will set `a` to be the same as `b`. `==` on the other hand won't change either side. `a == b` will be a true statement if `a` and `b` are the same, and otherwise it will be false.
 
