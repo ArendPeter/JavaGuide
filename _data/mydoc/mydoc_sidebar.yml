@@ -280,6 +280,7 @@ entries:
     product: all
     version: all
     output: web, pdf
+    items:
     - title: 7.1 If Statements
       url: /mydoc/7a_IfStatements.html
       audience: programmers
