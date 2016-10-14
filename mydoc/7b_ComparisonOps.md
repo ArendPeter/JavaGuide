@@ -110,6 +110,13 @@ if()
 
 Here are the list of comparison operators that you can use in Java along with their mathematical equivalent
 
+| Type    | Size    | Range |
+|:--------|:--------|:------|
+| byte    | 1 byte  | -128 to 127 |
+| short   | 2 bytes | -32768 to 32767 |
+| int     | 4 bytes | +/- ~2 billion |
+| long    | 8 bytes | +/- ~9 quintillion |
+
 | Java Synax  | Math Symbol |
 |:--------|:--------|
 | ==      | =       |
