@@ -280,6 +280,34 @@ entries:
     product: all
     version: all
     output: web, pdf
+    - title: 7.1 If Statements
+      url: /mydoc/7a_IfStatements.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: 7.2 Comparison Operators
+      url: /mydoc/7b_ComparisonOps.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: 7.3 Boolean Logic
+      url: /mydoc/7c_BooleanLogic.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: 7.4 Logic Excercises
+      url: /mydoc/7d_LogicExcercises.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
   - title: 08 - Rock, Paper, Scissor
     audience: programmers
     platform: all
