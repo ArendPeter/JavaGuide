@@ -21,14 +21,14 @@ Above is an example of the basic syntax for an **if statement**. It start's with
 The condition is a boolean statment, so for this code I could have included the declaration of `morning` to be `boolean morning = true;`.
 If the condition is true, the first block is executed and in this case that's `eatBreakfast()`. If the condition is false, the second block will be executed and in this case that's `eatLunch()`.
 
-The syntax of if statements are intented to be logical. In this case you can almost read it like a sentance `if it's morning eat breakfast else eat dinner`. Another thing I should note is that the else keyword as well as the second block are optional. Sometimes you just want to do something when the condition is true and nothing if it's false.
+The syntax of if statements are intented to be logical. In this case you can almost read it like a sentance `if it's morning eat breakfast else eat lunch`. Another thing I should note is that the else keyword as well as the second block are optional. Sometimes you just want to do something when the condition is true and nothing if it's false.
 
 ```java
 if(raining){
   bringUmbrella();
 }
 ```
-Reaching branching logic is a big step in your programming development. With if statements your code will do different things depending on the situation, your code will no longer just execute the same path everytime, now your code can be much more dynamic.
+Reaching branching logic is a big step in your programming development. With if statements your code will do different things depending on the situation and your code will no longer just execute the same path everytime. Overall your code can be much more dynamic.
 
 ## 7.1.2 Examples
 
