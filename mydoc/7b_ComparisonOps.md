@@ -8,7 +8,7 @@ homepage:
 
 ## 7.2.1 Comparison Operators in conditions
 
-The rest of the sections of this chapter cover different ways we can work with the condition of the if statement. After all, the condition is the core part of the if statement since this is the portion that decides which path the logic will take. It's important to remember that regardless of what symbols we add to the condition the end result is always that it becuase a true/false expression which we evaluate to decide which path we should take.
+The rest of the sections of this chapter cover different ways we can work with the condition of the if statement. After all, the condition is the core part of the if statement since this it's the portion that decides which path the logic will take. It's important to remember that regardless of what symbols we add to the condition the end result is always that it becomes a true/false expression which we evaluate to decide which path we should take.
 
 In this section we'll be covering the various comparison operators. Using these we can use our if statements to describe more complex logic. Here's an example of what we might do
 
@@ -20,8 +20,7 @@ if(temperature < 50){
 }
 ```
 
-So here within the condition we're comparing `temp` and `50`, and we're using the `<` (less than). This statment would be true if `temp` is less than `50` and it will be false otherwise. Again it reads like a
-since, "if the temperature is less than 50 wear a jacket".
+So here within the condition we're comparing `temp` and `50`, and we're using the `<` (less than). This statment would be true if `temp` is less than `50` and it will be false otherwise. Again it reads like a sentance,  "if the temperature is less than 50 wear a jacket".
 
 ## 7.2.2 List of comarison operators
 
