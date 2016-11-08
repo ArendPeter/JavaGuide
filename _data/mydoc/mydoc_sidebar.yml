@@ -232,7 +232,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-    - title: Exercises
+    - title: 5.5 - Exercises
       url: /mydoc/5e_ArithmeticExercises.html
       audience: programmers
       platform: all
@@ -302,8 +302,8 @@ entries:
       product: all
       version: all
       output: web, pdf
-    - title: 7.4 Logic Excercises
-      url: /mydoc/7d_LogicExcercises.html
+    - title: 7.4 Logic Exercises
+      url: /mydoc/7d_Exercises.html
       audience: programmers
       platform: all
       product: all
