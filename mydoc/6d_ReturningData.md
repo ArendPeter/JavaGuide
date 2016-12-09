@@ -1,5 +1,5 @@
 ---
-title: 6.4 Returning Data 
+title: 6.4 Returning Data
 tags:
 audience: programmers
 type:
@@ -76,5 +76,5 @@ public class MethodsThatGive{
 2. Create a method which takes 4 numbers and returns the product.
 3. Create a method which takes 3 numbers and return the [Harmonic Mean](https://en.wikipedia.org/wiki/Harmonic_mean).
 4. Create a method which takes 3 numbers (yards, feet, and inches) and converts it to centimeters.
-5. Create a method which takes Celcius and converts it to Fahrenheit.
+5. Create a method which takes Celsius and converts it to Fahrenheit.
 6. Create a method which takes 3 numbers (month, day, year) and return a string with the format mm/dd/yyyy.

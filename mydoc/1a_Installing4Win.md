@@ -27,9 +27,9 @@ Next go to your search menu and look for “System”, and open it.
 
 ![](img/1a_window2.png)
 
-Next click on Advaced system settings
+Next click on Advanced system settings.
 
-**Warning: Be sure to follow the next steps exactly as incorrectly modifying your path could affect other areas on your computer**
+**Warning: Be sure to follow the next steps exactly, as incorrectly modifying your path could affect other areas on your computer**
 
 ![](img/1a_window3.png)
 
@@ -49,7 +49,7 @@ Next close your original command prompt window and open a new one. Now when you 
 
 ## 1.1.3 Command Prompt Basics
 
-In this document we’ll be using the command prompt to run our programs. Many people prefer to use IDEs such as Eclipse or NetBeans for running their programs however since command prompt is the most universally available and since it exposes you to all details of the process command prompt is preferred for this guide.
+In this document we’ll be using the command prompt to run our programs. Many people prefer to use IDEs such as Eclipse or IntelliJ for running their programs. However since command prompt is the most universally available, and since it exposes you to all details of the process, command prompt is preferred for this guide.
 
 For this guide there are about 9 commands you’ll need for basic command prompt usage
 
@@ -63,7 +63,7 @@ For this guide there are about 9 commands you’ll need for basic command prompt
 | javac		       | Compile a java program |
 | color			   | Change the color of your screen |
 
-The last one isn’t really essential but it’s just fun to use. For example inputting `color 70` will invert the colors on your command prompt window.
+The last one isn’t really essential, but it’s just fun to use. For example inputting `color 70` will invert the colors on your command prompt window.
 As an example of navigating through directories, below I’ve used `dir` to see what’s in my directory. I saw “Desktop” in that list so I used `cd Desktop` to navigate to my desktop. Then I used `cd ..` to go back to my user directory.
 
 ![](img/1a_dos_ex.png)

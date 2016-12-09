@@ -48,7 +48,7 @@ public class TakeStuff{
 }
 ```
 
-Here I created 2 methods, one with a single parameter and another with 2 parameters. Notice that when calling them it's equally valid to input data into the methods (ex. `greet("Bob")`) or to use a variable (as done in the example). Another important note that's often missed is that the variable name inputted does not have to match the variable name in method definition. In this case I inputted the variable `bobsName` but in the `greetByName()` method I refered to the variable by `name`.
+Here I created 2 methods, one with a single parameter and another with 2 parameters. Notice that when calling them it's equally valid to input data into the methods (ex. `greet("Bob")`) or to use a variable (as done in the example). Another important note that's often missed is that the variable name inputted does not have to match the variable name in method definition. In this case I inputted the variable `bobsName` but in the `greetByName()` method I referred to the variable by `name`.
 
 ## 6.3.3 Exercises
 

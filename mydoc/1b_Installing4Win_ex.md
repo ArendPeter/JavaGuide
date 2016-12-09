@@ -1,11 +1,11 @@
 ---
-title: 1.2 Exercieses 
+title: 1.2 Exercieses
 tags:
 audience: programmers
 type:
 homepage:
 ---
-To get more practice try performing the following actions
+To get more practice try performing the following actions:
 
 1.	Navigate to the directory where you installed Java
 2.	Navigate to My Documents
