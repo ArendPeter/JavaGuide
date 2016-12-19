@@ -315,6 +315,48 @@ entries:
     product: all
     version: all
     output: web, pdf
+    - title: 8.1 Primitive vs. Reference Types
+      url: /mydoc/8a_PrimvsRef.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: 8.2 Assignment
+      url: /mydoc/8b_Assignment.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: 8.3 Hints
+      url: /mydoc/8c_Hints.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: 8.4 Answer Program
+      url: /mydoc/8d_AnswerProgram.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: 8.5 Bonus Assignment
+      url: /mydoc/8e_BonusAssignment.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+    - title: 8.6 Bonus Answer Program
+      url: /mydoc/8f_BonusAnswerProgram.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
   - title: 09 - Loops
     audience: programmers
     platform: all
