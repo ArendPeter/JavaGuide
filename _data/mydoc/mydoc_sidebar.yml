@@ -315,6 +315,7 @@ entries:
     product: all
     version: all
     output: web, pdf
+    items:
     - title: 8.1 Primitive vs. Reference Types
       url: /mydoc/8a_PrimvsRef.html
       audience: programmers
