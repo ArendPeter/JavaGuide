@@ -6,11 +6,11 @@ type:
 homepage:
 ---
 
-I'd liked to take some time to motivate the reason for having types, and to do this we'll need to look at how our computers go about storing data.
+I'd like to take some time to motivate the reason for having types, and to do this we'll need to look at how our computers go about storing data.
 
 ## 3.2.1 Storing Numbers
 
-Let's say for example that we have the following code which has four variables storing different numbers.
+Let's say for example that we have the following code which has four variables storing different numbers:
 
 ~~~java
 byte x1 = 5;
@@ -19,19 +19,19 @@ byte x3 = 103;
 byte x4 = 43;
 ~~~
 
-You can think of computer memory as a continuous series of number. So that said one way we could consider storing the data is as follows.
+You can think of computer memory as a continuous series of numbers. That said, one way we could consider storing the data is as follows:
 
 ~~~
 56510343
 ~~~
 
-The issues with this method becomes clear pretty quickly. When the numbers are placed side by side in this manner it's impossible for us to tell where one number starts and another ends. Another way we could store them is to apply a rule stating that each number must be three digits and we can add leading zeros where necessary.
+The issues with this method become clear pretty quickly. When the numbers are placed side by side in this manner, it's impossible for us to tell where one number starts and another ends. Another way we could store them is to apply a rule stating that each number must be three digits, and we can add leading zeros where necessary.
 
 ~~~
 005065103043
 ~~~
 
-Of course in reality this isn't actually the way computers see numbers. We write our numbers using base ten but since the computer operates on ones and zeros it uses base two (binary) to express these numbers.
+Of course, in reality this isn't actually the way computers see numbers. We write our numbers using base ten, but since the computer operates on ones and zeros it uses base two (binary) to express these numbers.
 
 ## 3.2.2 Quick Binary Lesson
 
@@ -43,7 +43,7 @@ We'll start with this example number
 136
 ~~~
 
-Since it's base 10 this means 1 group of 100, 3 groups of 10, and 6 groups of 1. Here's another way that can be written.
+Since it's base 10, this means 1 group of 100, 3 groups of 10, and 6 groups of 1. Here's another way that can be written.
 
 ~~~
 1 * 10^2  +  3 * 10^1  +  6 * 10^0
@@ -61,14 +61,14 @@ This shows us that the binary version of `136` is
 10001000
 ~~~
 
-Here's some additional terminology that applies to binary numbers on computers
+Here's some additional terminology that applies to binary numbers on computers:
 
-* Single binary digits are called *bits*
-* Sets of 8 bits are called *bytes*
+* Single binary digits are called *bits*.
+* Sets of 8 bits are called *bytes*.
 
 So we could say that the number `136` requires a single *byte* of space.
 
-If you are interested in learning more about binary and number bases in general here are some videos for you to check out
+If you are interested in learning more about binary and number bases in general, here are some videos for you to check out:
 
 [255 & Pacman](https://www.youtube.com/watch?v=umYvFdU54Po)
 
@@ -79,13 +79,13 @@ If you are interested in learning more about binary and number bases in general 
 [Why 1/1/1970 Bricks Your iPhone](https://www.youtube.com/watch?v=MVI87HzfskQ)
 
 ## 3.2.3 Storage with Binary
-Now let's return to our previous Example
+Now let's return to our previous example.
 
 ~~~
 005065103043
 ~~~
 
-Now that we understand binary we can we write this is a manner that's more representative of how a computer would see the values. I've divided it into multiple lines to make it more clear.
+Now that we understand binary, we can write this in a manner that's more representative of how a computer would see the values. I've divided it into multiple lines to make it more clear.
 
 ~~~
 00000101
@@ -94,4 +94,4 @@ Now that we understand binary we can we write this is a manner that's more repre
 01001011
 ~~~
 
-Now we can clearly see that a byte of data is required to store each value. At this point it should also be clear to you that in general bigger numbers take up more space in memory.
+Now we can clearly see that a byte of data is required to store each value. At this point it should also be clear to you that in general, bigger numbers take up more space in memory.

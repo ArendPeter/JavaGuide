@@ -6,7 +6,7 @@ type:
 homepage:
 ---
 
-So far we've been preceding variable names with their type most of the time however that's not always the case.
+So far we've been preceding variable names with their types most of the time. However, that's not always the case.
 
 ~~~java
 class VariableExample{
@@ -20,7 +20,7 @@ class VariableExample{
 
 ~~~
 
-Here we have an `int` prior to `a` the first time but not the second time. To fully understand when this happens we'll need to distinguish between declaration, initialiazation, and assignment.
+Here we have an `int` prior to `a` the first time but not the second time. To fully understand when this happens, we'll need to distinguish between declaration, initialization, and assignment.
 
 ## 5.4.1 Assignment
 
@@ -35,7 +35,7 @@ b = 7; // assignment
 
 ## 5.4.2 Initialization
 
-**Initialization** is when you assign data to a variable for the first time. With all other assignments you're overwriting data. With initialization there was no previous data to overwrite.
+**Initialization** is when you assign data to a variable for the first time. With all other assignments, you're overwriting data. With initialization, there was no previous data to overwrite.
 
 ~~~java
 int a; // not an initialization
@@ -46,7 +46,7 @@ b = 7; // not an initialization
 
 ## 5.4.3 Declaration
 
-**Declaration** is the point at which you create a variable. At this point java knows nothing about the variable so it's necessary to specify the type. This is the only time you need to specify the type since at all future time java can refer to this declaration to determine what the type is.
+**Declaration** is the point at which you create a variable. At this point, Java knows nothing about the variable, so it's necessary to specify the type. This is the only time you need to specify the type since for all future time, Java can refer to this declaration to determine what the type is.
 
 ~~~java
 int a; // declaration
@@ -55,4 +55,4 @@ a = 6; // not a declaration
 b = 7; // not a declaration
 ~~~
 
-Notice that when you initially create a variable you're always declaring it, but you're not necessarily initializing it. Some times you want to declare a lot of variables but you don't know which values to initialize them to yet.
+Notice that when you initially create a variable, you're always declaring it, but you're not necessarily initializing it. Sometimes you want to declare a lot of variables, but you don't know which values to initialize them to yet.

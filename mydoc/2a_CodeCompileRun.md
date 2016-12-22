@@ -5,9 +5,9 @@ audience: programmers
 type:
 homepage:
 ---
-Now that we have Java set up we can write our first program. Just open up a text editor, and we can get started. Any text editor should work; however, I recommend using a basic text editor which does not include auto complete. When you’re starting out I feel that’s it’s good practice to type out everything to ensure that you understand it. Syntax highlighting is a nice feature that you may want to have for your text editor. My current go-to text editor is Atom, but other good basic text editors include Notepad2, Notepad++, and Sublime Text.
+Now that we have Java set up, we can write our first program. Just open up a text editor, and we can get started. Any text editor should work; however, I recommend using a basic text editor which does not include auto complete. When you’re starting out I feel that it’s good practice to type out everything to ensure that you understand it. Syntax highlighting is a nice feature that you may want to have for your text editor. My current go-to text editor is Atom, but other good basic text editors include Notepad2, Notepad++, and Sublime Text.
 
-Once you've chosen your editor open it up and type the following code.
+Once you've chosen your editor, open it up and type the following code:
 
 ~~~java
 //My first Java program
@@ -19,7 +19,7 @@ public class HelloWorld{
 }
 ~~~
 
-There’s a lot of information here, and we’ll be breaking it down soon but first let’s get it to run. Save the file as “HelloWorld.java” and navigate to that location in command prompt.
+There’s a lot of information here, and we’ll be breaking it down soon, but first let’s get it to run. Save the file as “HelloWorld.java” and navigate to that location in command prompt.
 The process of programming can be broken down into 3 steps.
 
 1.	Code
@@ -32,4 +32,4 @@ We’ve just written the code. However it’s written in Java, and although we m
 
  ![](img/2a_CompileRun.png)
 
-If you got errors at the compilation step, don’t panic. Just look back at the code and make sure you typed everything exactly as I did. Keep in mind that every character is important (including semi-colons) and that Java is case sensitive.
+If you got errors at the compilation step, don’t panic. Just look back at the code and make sure you typed everything exactly as I did. Keep in mind that every character is important (including semi-colons) and that Java is case-sensitive.
