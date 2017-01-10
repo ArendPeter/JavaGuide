@@ -10,3 +10,5 @@ System.out.print
 terinary
 
 possibly go through and adjust rps program
+  use % to clean up logic
+  also apply switch
