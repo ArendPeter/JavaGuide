@@ -317,27 +317,34 @@ entries:
     output: web, pdf
     items:
     - title: 8.1 Primitive vs. Reference Types
-      url: /mydoc/8a_PrimvsRef.html
+      url: /mydoc/8a_PrimitiveVsReference.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: 8.2 Assignment
-      url: /mydoc/8b_Assignment.html
+    - title: 8.2 Variable Scope
+      url: /mydoc/8b_VariableScope.html
+      audience: programmers
+      platform: all
+      product: all
+      version: all
+      output: web, df
+    - title: 8.3 Assignment
+      url: /mydoc/8c_Assignment.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: 8.3 Hints
-      url: /mydoc/8c_Hints.html
+    - title: 8.4 Hints
+      url: /mydoc/8d_Hints.html
       audience: programmers
       platform: all
       product: all
       version: all
       output: web, pdf
-    - title: 8.4 Answer Program
+    - title: 8.5 Answer Program
       url: /mydoc/8d_AnswerProgram.html
       audience: programmers
       platform: all
