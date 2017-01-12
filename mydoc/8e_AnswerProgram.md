@@ -1,5 +1,5 @@
 ---
-title: 8.3 Project Outline
+title: 8.2 Project Outline
 tags:
 audience: programmers
 type:

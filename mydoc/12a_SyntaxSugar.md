@@ -14,3 +14,5 @@ possibly go through and adjust rps program
   also apply switch
 
 oop and static
+
+enums
