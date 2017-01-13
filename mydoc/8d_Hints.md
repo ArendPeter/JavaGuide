@@ -10,11 +10,7 @@ homepage:
 
 This page outlines several hints/guidlines for how to solve the problems for this assignment. For the most part all of these problems should be able to be solved with the information you already know. The difficult portion is breaking down the general problem so that it can be solved within the bounds of the rigid programming syntax that you've learned. The ability to restructure problems in this way is what makes a good programmer. Understanding syntax of your language is only the first step, learning the realm of possibilites of how the syntax can be applied is the never ending journey that keeps making you a better programmer. That said some of the hints outlined in this section might not be immediately inuitive, but as you gain more experience working with problems your understanding of the process will grow.
 
-## 8.4.2 Hint 1
-
-<details>
-<summary> Click to expand </summary>
-<b>Use methods to structure your code</b><br>
+## 8.4.2 Use methods to structure your code
 
 The first hint is to structure the program with methods. Breaking your program down into methods feels like an annoying chore at first but it useful because it forces you to break the problem down into smaller pieces, and it's easier to break the smaller pieces down into code. For mine I used 3 methods, `getUserChoice()`,  `getAIChoice()`, and `printResult()`.
 
@@ -38,13 +34,8 @@ if(userChoice != -1){
 ```
 
 Simplifying the logic of your code in this way will also make it easier to track down bugs if you have problems and if other people are reading your code this will allow them to understand it more easily.
-</details>
 
-## 8.4.3 Hint 2
-
-<details>
-<summary> Click to expand </summary>
-<b>Represent Answers with Numbers</b><br>
+## 8.4.3 Represent Answers with Numbers
 
 For my program I decided to represent the possible input options as integers where Rock, Paper, Scissors, would correspond to 0, 1, and 2 respectively. There are many reasons why this is useful. First off this will minimize the number of times you'll have to use the string comparison `str1.equals(str2)` and that will make the code look cleaner. It will also make the logic for generating the random response in `getAIChoice()` easier and it will allow for some simpler logic within `printResult()`.
 
@@ -79,13 +70,8 @@ return -1;
 
 As an added challenge you could try and add some more logic to allow for the input to be case insensitive.
 
-</details>
 
-## 8.4.4 Hint 3
-
-<details>
-<summary> Click to expand </summary>
-<b>Use java.util.Random</b><br>
+## 8.4.4 Use java.util.Random
 
 You're going to want to use a random number generator to determine what the computer picks. There are several ways you can do this but I recommend using the [java.util.Random](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html) java library. It's fairly simple to use and there are a lot of options for you to specify what you want your random numbers to look like. In this case we want it to randomly choose between 0, 1, 2 so that the computer will select Rock, Paper, or Scissors respectively, here's what the code looks like
 
@@ -96,13 +82,8 @@ int aiChoice = rand.nextInt(3);//selects between zero up to (but not including) 
 
 >**Note:** In case your curious some other methods of generating random number is by manipulating the output of [Math.random()] (https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#random) or by manipulating some time variable (maybe [System.currentTimeMillis()](https://docs.oracle.com/javase/7/docs/api/java/lang/System.html#currentTimeMillis())) and then run some operation on that. In this case you might choose 0 if it's divisible by 3, 1 if time-1 is divisible by 3, or 2 if time-2 is divisible by 3, and an easy check for divisibility by 3 is `time%3==0` (more on that in the syntax sugar section)
 
-</details>
 
-## 8.4.5 Hint 4
-
-<details>
-<summary> Click to expand </summary>
-<b>How to decide the winner</b><br>
+## 8.4.5 How to decide the winner
 
 Writing the logic to decide who wins is the most interesting part of this assignment (at least that's what I think). There are several ways to do it and I'll be going over some of them here.
 
@@ -194,4 +175,3 @@ if(diff == 2){
 ```
 
 You can experiment more with other ways to try and minimize the number of if statements that you use, there are ways to go even smaller.
-</details>
