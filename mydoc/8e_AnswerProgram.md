@@ -1,54 +1,120 @@
 ---
-title: 8.2 Project Outline
+title: 8.5 Answer Program
 tags:
 audience: programmers
 type:
 homepage:
 ---
 
-## 8.3.1 Description
+## 8.5 Answer Program
 
-This is your first project for the guide. Just using input/output as well as some if statement logic, you should be able to create a small game where the user plays rock paper scissors with the computer. Here's how it works.
+This is my final program, it uses the hints from 8.4, you can use this as a reference.
 
-1. The computer requests a move from the user
-2. User inputs Rock, Paper, or Scissors
-3. The computer will randomly select its move (again either rock paper or scissors)
-4. Finally the computer will compare the 2 answers and it will print either "you win" or "I win"
+~~~java
+import java.util.Scanner;
+import java.util.Random;
 
-That's the description, now give it a try. You may need to do some searches if you don't know how to do somethin, and the logic may require some trial and error but that's ok. Just do your best and come back to this guide when you're ready for more information. You can read the next part for some example cases from my program in order to get a better idea of how it's supposed to run. Also if you're stuck at any point, section 8.3 will have hints that might help.
+public class RockPaperScissors{
+        public static void main(String[] args){
+                int userChoice = getUserChoice();
+                if(userChoice != -1){
+                        //selects a random number for the computer
+                        int aiChoice = getAIChoice();
+                        //determine winner
+                        printResult(aiChoice, userChoice);
+                }
+        }
 
-## 8.3.2 Example usage
+        //returns 0, 1, or 2 for Rock, Paper, and Scissor respectively
+        public static int getUserChoice(){
+                //prints instructions
+                System.out.println("Please type Rock, Paper, or Scissors: ");
 
-Here are some example scenarios that happened when I played my version of the program
+                //gets user input
+                Scanner scan = new Scanner(System.in);
+                String input = scan.nextLine();
 
-~~~
-» java RockPaperScissors
-Please type Rock, Paper, or Scissors:
-Scissors
-Computer chose Rock
-Computer Wins
-~~~
+                //when the user inputs Rock
+                if(input.equals("Rock")){
+                        return 0;
+                }
 
-~~~
-» java RockPaperScissors
-Please type Rock, Paper, or Scissors:
-Paper
-Computer chose Rock
-User Wins
-~~~
+                //when the user inputs Paper
+                if(input.equals("Paper")){
+                        return 1;
+                }
 
-~~~
-» java RockPaperScissors
-Please type Rock, Paper, or Scissors:
-Rock
-Computer chose Rock
-It's a tie
-~~~
+                //When the user inputs Scissors
+                if(input.equals("Scissors")){
+                        return 2;
+                }
 
-~~~
-» java RockPaperScissors
-Please type Rock, Paper, or Scissors:
-Paper
-Computer chose Paper
-It's a tie
+                //only happens when user input something other than the 3 cases above
+                return -1;
+        }
+
+        public static int getAIChoice(){
+                //select choice
+                Random rand = new Random();
+                int aiChoice = rand.nextInt(3);
+
+                //print the string corresponding to the choice
+                if(aiChoice == 0){
+                        System.out.println("Computer chose Rock");
+                }
+                if(aiChoice == 1){
+                        System.out.println("Computer chose Paper");
+                }
+                if(aiChoice == 2){
+                        System.out.println("Computer chose Scissors");
+                }
+
+                //send back decision
+                return aiChoice;
+        }
+
+        public static void printResult(int aiChoice, int userChoice){
+                //when they chose the same thing
+                if(aiChoice == userChoice){
+                        System.out.println("It's a tie");
+                }
+
+                //compute difference, used to check results later
+                int diff = aiChoice - userChoice;
+
+                //this corresponds to cases when the ai is 1 ahead, so these cases
+                //      AI                      User
+                //      Paper(1)        Rock(0)
+                //      Scissors(2)     Paper(1)
+                //      here the ai wins
+                if(diff == 1){
+                        System.out.println("Computer Wins");
+                }
+
+                //this corresponds to cases when the user is 1 ahead, so these cases
+                //      AI                      User
+                //      Rock(0)         Paper(1)
+                //      Paper(1)        Scissors(2)
+                //      here the user wins
+                if(diff == -1){
+                        System.out.println("User Wins");
+                }
+
+                //this corresponds to cases when the ai is 2 ahead, so these cases
+                //      AI                      User
+                //      Scissors(2) Rock(0)
+                //      here the user wins
+                if(diff == 2){
+                        System.out.println("User Wins");
+                }
+
+                //this corresponds to cases when the ai is 2 ahead, so these cases
+                //      AI                      User
+                //      Rock(0)         Scissors(2)
+                //      here the ai wins
+                if(diff == -2){
+                        System.out.println("Computer Wins");
+                }
+        }
+}
 ~~~

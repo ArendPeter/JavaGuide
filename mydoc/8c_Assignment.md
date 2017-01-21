@@ -13,9 +13,9 @@ This is your first project for the guide. Just using input/output as well as som
 1. The computer requests a move from the user
 2. User inputs Rock, Paper, or Scissors
 3. The computer will randomly select its move (again either rock paper or scissors)
-4. Finally the computer will compare the 2 answers and it will print either "you win" or "I win"
+4. Finally the computer will compare the 2 answers and it will print either "you win", "I win", or "tie"
 
-That's the description, now give it a try. You may need to do some searches if you don't know how to do somethin, and the logic may require some trial and error but that's ok. Just do your best and come back to this guide when you're ready for more information. You can read the next part for some example cases from my program in order to get a better idea of how it's supposed to run. Also if you're stuck at any point, section 8.3 will have hints that might help.
+That's the description, now give it a try. You may need to do some searches if you don't know how to do something, and the logic may require some trial and error but that's ok. Just do your best and come back to this guide when you're ready for more information. You can read the next part for some example cases from my program in order to get a better idea of how it's supposed to run. Also if you're stuck at any point, section 8.3 will have hints that might help.
 
 ## 8.3.2 Example usage
 

@@ -80,7 +80,7 @@ Random rand = new Random();//create an object of random for us to use
 int aiChoice = rand.nextInt(3);//selects between zero up to (but not including) 3
 ```
 
->**Note:** In case your curious some other methods of generating random number is by manipulating the output of [Math.random()] (https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#random) or by manipulating some time variable (maybe [System.currentTimeMillis()](https://docs.oracle.com/javase/7/docs/api/java/lang/System.html#currentTimeMillis())) and then run some operation on that. In this case you might choose 0 if it's divisible by 3, 1 if time-1 is divisible by 3, or 2 if time-2 is divisible by 3, and an easy check for divisibility by 3 is `time%3==0` (more on that in the syntax sugar section)
+>**Note:** In case your curious some other methods of generating random number is by manipulating the output of [Math.random()](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#random) or by manipulating some time variable (maybe [System.currentTimeMillis()](https://docs.oracle.com/javase/7/docs/api/java/lang/System.html#currentTimeMillis())) and then run some operation on that. In this case you might choose 0 if it's divisible by 3, 1 if time-1 is divisible by 3, or 2 if time-2 is divisible by 3, and an easy check for divisibility by 3 is `time%3==0` (more on that in the syntax sugar section)
 
 
 ## 8.4.5 How to decide the winner

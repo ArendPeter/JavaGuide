@@ -1,54 +1,86 @@
 ---
-title: 8.2 Project Outline
+title: 8.6 Bonus Assignment
 tags:
 audience: programmers
 type:
 homepage:
 ---
 
-## 8.3.1 Description
+## 8.6.1 Description
 
-This is your first project for the guide. Just using input/output as well as some if statement logic, you should be able to create a small game where the user plays rock paper scissors with the computer. Here's how it works.
+Here's a more complicated version of the problem that you can use to test your knowledge. Instead of just Rock, Paper, Scissors, it also involves Lizard and Spock. For the exact rules you can refer to the [big bang theory episode](https://www.youtube.com/watch?v=Kov2G0GouBw).
+
+![](img/8f_bonus_meme.jpg)
+
+The user interaction is the same as the previous one.
 
 1. The computer requests a move from the user
-2. User inputs Rock, Paper, or Scissors
-3. The computer will randomly select its move (again either rock paper or scissors)
-4. Finally the computer will compare the 2 answers and it will print either "you win" or "I win"
+2. User inputs Rock, Paper, Scissors, Lizard, or Spock
+3. The computer will randomly select its move (again either rock, paper, scissors, lizard, or spock)
+4. Finally the computer will compare the 2 answers and it will print either "you win", "I win", or "tie"
 
-That's the description, now give it a try. You may need to do some searches if you don't know how to do somethin, and the logic may require some trial and error but that's ok. Just do your best and come back to this guide when you're ready for more information. You can read the next part for some example cases from my program in order to get a better idea of how it's supposed to run. Also if you're stuck at any point, section 8.3 will have hints that might help.
+Good luck :)
 
-## 8.3.2 Example usage
-
-Here are some example scenarios that happened when I played my version of the program
+## 8.6.2 Example usage
 
 ~~~
-» java RockPaperScissors
-Please type Rock, Paper, or Scissors:
-Scissors
-Computer chose Rock
+» java RockPaperScissorsLizardSpock
+Please type Rock, Paper, Scissors, Lizard, or Spock:
+Rock
+Computer chose Paper
 Computer Wins
 ~~~
 
 ~~~
-» java RockPaperScissors
-Please type Rock, Paper, or Scissors:
+» java RockPaperScissorsLizardSpock
+Please type Rock, Paper, Scissors, Lizard, or Spock:
+Scissors
+Computer chose Scissors
+It's a tie
+~~~
+
+~~~
+» java RockPaperScissorsLizardSpock                                                                     ~
+Please type Rock, Paper, Scissors, Lizard, or Spock:
+Lizard
+Computer chose Lizard
+It's a tie
+~~~
+
+~~~
+» java RockPaperScissorsLizardSpock                                                             
+Please type Rock, Paper, Scissors, Lizard, or Spock:
+Spock
+Computer chose Lizard
+Computer Wins
+~~~
+
+~~~
+» java RockPaperScissorsLizardSpock                                                              
+Please type Rock, Paper, Scissors, Lizard, or Spock:
 Paper
-Computer chose Rock
+Computer chose Lizard
+Computer Wins
+~~~
+
+~~~
+» java RockPaperScissorsLizardSpock                                                               
+Please type Rock, Paper, Scissors, Lizard, or Spock:
+Rock
+Computer chose Lizard
 User Wins
 ~~~
 
-~~~
-» java RockPaperScissors
-Please type Rock, Paper, or Scissors:
-Rock
-Computer chose Rock
-It's a tie
-~~~
+## 8.6.3 Hint
 
-~~~
-» java RockPaperScissors
-Please type Rock, Paper, or Scissors:
-Paper
-Computer chose Paper
-It's a tie
-~~~
+You can use many of the same hints as mentioned in 8.4.
+
+I recommend you use the following number for the options, since it will align with the diagram and it will make some of the logic simpler.
+
+0. Rock
+1. Paper
+2. Scissors
+3. Spock
+4. Lizard
+
+![](img/8f_diagram.png)
