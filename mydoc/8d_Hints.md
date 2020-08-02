@@ -8,7 +8,7 @@ homepage:
 
 ## 8.4.1 Problem Solving Mindset
 
-This page outlines several hints/guidlines for how to solve the problems for this assignment. For the most part all of these problems should be able to be solved with the information you already know. The difficult portion is breaking down the general problem so that it can be solved within the bounds of the rigid programming syntax that you've learned. The ability to restructure problems in this way is what makes a good programmer. Understanding syntax of your language is only the first step, learning the realm of possibilites of how the syntax can be applied is the never ending journey that keeps making you a better programmer. That said some of the hints outlined in this section might not be immediately inuitive, but as you gain more experience working with problems your understanding of the process will grow.
+This page outlines several hints/guidelines for how to solve the problems for this assignment. For the most part all of these problems should be able to be solved with the information you already know. The difficult portion is breaking down the general problem so that it can be solved within the bounds of the rigid programming syntax that you've learned. The ability to restructure problems in this way is what makes a good programmer. Understanding syntax of your language is only the first step, learning the realm of possibilites of how the syntax can be applied is the never ending journey that keeps making you a better programmer. That said some of the hints outlined in this section might not be immediately inuitive, but as you gain more experience working with problems your understanding of the process will grow.
 
 ## 8.4.2 Use methods to structure your code
 
