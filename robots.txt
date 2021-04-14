@@ -1,1 +1,2 @@
-I'm a simple robots.txt file
+User-agent: *
+Disallow:
