@@ -40,7 +40,7 @@ It's a tie
 ~~~
 
 ~~~
-» java RockPaperScissorsLizardSpock                                                                     ~
+» java RockPaperScissorsLizardSpock
 Please type Rock, Paper, Scissors, Lizard, or Spock:
 Lizard
 Computer chose Lizard
